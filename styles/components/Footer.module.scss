@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex: 1 1 100%;
+  padding: 2rem;
+  width: 100%;
+}
+
+.social {
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    display: inline-flex;
+    margin-right: 1rem;
+    
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

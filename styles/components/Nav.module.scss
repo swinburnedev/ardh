@@ -1,0 +1,11 @@
+.nav {
+  padding: 2rem;
+  
+  &__menu {
+    list-style: none;
+
+    li {
+      padding: 1rem 2rem;
+    }
+  }
+}
