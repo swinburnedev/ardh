@@ -1,3 +1,10 @@
 .logo {
-  margin-right: 2rem;
+  &::after {
+    background-color: black;
+    display: inline-block;
+    height: 120px;
+    margin-left: 2rem;
+    content: '';
+    width: 3px;
+  }
 }

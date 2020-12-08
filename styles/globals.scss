@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Interstate';
+  src: url('/fonts/Interstate-bold.ttf');
+  src: url('/fonts/Interstate-regular.ttf');
+  src: url('/fonts/Interstate-light.ttf');
+}
+
 html,
 body {
   padding: 0;
@@ -6,6 +13,7 @@ body {
 
 body {
   background-color: #ebebeb;
+  font-family: 'Interstate';
 }
 
 a {

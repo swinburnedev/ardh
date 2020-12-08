@@ -4,12 +4,11 @@ import styles from '../styles/components/Logo.module.scss';
 
 const Logo = () => (
   <Link href="/">
-    <a>
+    <a className={styles.logo}>
       <Image
-        className={styles.logo}
-        src="/img/ardh-logo.png"
-        height="167"
-        width="200"
+        src="/img/logo.png"
+        height="120"
+        width="100"
         alt="ARDH"
       />
     </a>

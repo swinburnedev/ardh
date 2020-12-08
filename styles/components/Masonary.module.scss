@@ -24,6 +24,10 @@
     margin-bottom: 1rem;
     width: 100%;
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
     #{$m}__image {
       margin-right: 1rem;
     }
