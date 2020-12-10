@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
 import Masonary from '../components/Masonary';
 import styles from '../styles/Home.module.scss';
 import utils from '../styles/Utils.module.scss';
@@ -15,6 +16,7 @@ const Home = () => {
       </Head>
       <main>
         <Header />
+        <Hero />
         <div className={styles.fifty}>
           <div className={styles.content}>
             <div className={styles.content__row}>
