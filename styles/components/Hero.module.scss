@@ -1,5 +1,44 @@
 .hero {
-  &__image {
-    
+  display: flex;
+
+  &__panel {
+    background-color: #1b2830;
+    color: white;
+    text-align: right;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  &__info {
+    color: #2f8aa7;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0 5px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 768px) {
+    &__image {
+      display: flex;
+      width: 60%;
+    }
+
+    &__panel {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
+      padding: 0 10%;
+    }
+
+    &__info,
+    &__title {
+      align-items: center;
+    }
   }
 }

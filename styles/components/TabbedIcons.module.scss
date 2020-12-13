@@ -1,0 +1,33 @@
+.tab {
+  margin: 6rem auto 4rem;
+  text-align: center;
+
+  &__links {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    padding: 0 6rem;
+  }
+
+  &__inactive {
+    display: none;
+  }
+
+  &__active {
+    display: block;
+    line-height: 1.4rem;
+    margin: 0 auto;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      max-width: 45%;
+    }
+  }
+
+  &__title {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+}

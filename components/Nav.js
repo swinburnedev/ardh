@@ -11,22 +11,22 @@ const Nav = () => {
         <Toggle />
 
         <ul className={styles.nav__menu}>
-          <li className={router.pathname == "/expertise" ? "active" : ""}>
+          <li className={router.pathname == "/expertise" ? styles.nav__menu__active : ""}>
             <Link href="/expertise">
               <a>Expertise</a>
             </Link>
           </li>
-          <li className={router.pathname == "/projects" ? "active" : ""}>
+          <li className={router.pathname == "/projects" ? styles.nav__menu__active : ""}>
             <Link href="/projects">
               <a>Projects</a>
             </Link>
           </li>
-          <li className={router.pathname == "/inspiration" ? "active" : ""}>
+          <li className={router.pathname == "/inspiration" ? styles.nav__menu__active : ""}>
             <Link href="/inspiration">
               <a>Inspiration</a>
             </Link>
           </li>
-          <li className={router.pathname == "/contact" ? "active" : ""}>
+          <li className={router.pathname == "/contact" ? styles.nav__menu__active : ""}>
             <Link href="/contact">
               <a>Contact</a>
             </Link>

@@ -1,10 +1,20 @@
 @font-face {
+  font-display: swap;
   font-family: 'Interstate';
   src: url('/fonts/Interstate-bold.ttf');
   src: url('/fonts/Interstate-regular.ttf');
   src: url('/fonts/Interstate-light.ttf');
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.4em;
+}
 html,
 body {
   padding: 0;
@@ -28,4 +38,21 @@ a {
 main {
   display: flex;
   flex-wrap: wrap;
+}
+
+.button__icon {
+  z-index: -1;
+  display: block;
+  pointer-events:none;
+  height: 100px;
+  width: 125px;
+
+  path {
+    fill: #cccec9;
+  }
+}
+.button__icon__active {
+  path {
+    fill: #1b282f;
+  }
 }

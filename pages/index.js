@@ -3,11 +3,12 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import TabbedIcons from '../components/TabbedIcons';
 import Masonary from '../components/Masonary';
 import styles from '../styles/Home.module.scss';
 import utils from '../styles/Utils.module.scss';
 
-const Home = () => {
+const Home = ({tabs}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,35 +18,46 @@ const Home = () => {
       <main>
         <Header />
         <Hero />
-        <div className={styles.fifty}>
-          <div className={styles.content}>
-            <div className={styles.content__row}>
-              <h1>Heading 1</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere lacus ligula, varius pretium urna viverra in. Nunc in risus mauris. Cras condimentum eget dui pretium gravida. Etiam arcu elit, ultrices eu leo eu, dictum pretium leo. Integer et efficitur dui, sed euismod purus. Etiam cursus lacus non sodales vehicula. Pellentesque ut lectus ultrices, mattis risus ullamcorper, bibendum eros. Suspendisse condimentum ornare quam, pulvinar aliquet nunc dignissim a. Maecenas et lorem urna. Ut et pellentesque nisl. Nulla finibus arcu lectus, sit amet pretium dolor ultrices vel. In varius tellus in tortor sagittis finibus.</p>
-
-              <h2>Heading 2</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere lacus ligula, varius pretium urna viverra in. Nunc in risus mauris. Cras condimentum eget dui pretium gravida. Etiam arcu elit, ultrices eu leo eu, dictum pretium leo. Integer et efficitur dui, sed euismod purus. Etiam cursus lacus non sodales vehicula. Pellentesque ut lectus ultrices, mattis risus ullamcorper, bibendum eros. Suspendisse condimentum ornare quam, pulvinar aliquet nunc dignissim a. Maecenas et lorem urna. Ut et pellentesque nisl. Nulla finibus arcu lectus, sit amet pretium dolor ultrices vel. In varius tellus in tortor sagittis finibus.</p>
-
-              <h3>Heading 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere lacus ligula, varius pretium urna viverra in. Nunc in risus mauris. Cras condimentum eget dui pretium gravida. Etiam arcu elit, ultrices eu leo eu, dictum pretium leo. Integer et efficitur dui, sed euismod purus. Etiam cursus lacus non sodales vehicula. Pellentesque ut lectus ultrices, mattis risus ullamcorper, bibendum eros. Suspendisse condimentum ornare quam, pulvinar aliquet nunc dignissim a. Maecenas et lorem urna. Ut et pellentesque nisl. Nulla finibus arcu lectus, sit amet pretium dolor ultrices vel. In varius tellus in tortor sagittis finibus.</p>
-              
-              <Image
-                className={styles.masonry__image}
-                src={`https://via.placeholder.com/350x150.png?text=Image 1`}
-                height="150"
-                width="350"
-                alt="1"
-              />
-            </div>
-          </div>
-          <Footer />
-        </div>
-        <div className={`${styles.fifty} ${utils.bg__white}`}>
-          <Masonary />
-        </div>
+        <TabbedIcons tabs={tabs} />
+        <Masonary />
+        <Footer />
       </main>
     </div>
   )
 };
+
+// This function gets called at build time
+export async function getStaticProps() {
+  return {
+    props: {
+      tabs: [
+        { 
+          key: 'establishment',
+          title: 'Establishment',
+          icon: 'establishment',
+          description: 'ARDH Limited is a design based practice established in 2019 in the UK. \
+          We offer consultancy services in Landscape Design, Urbanism and Place-making. \
+          We have worked with clients throughout the UK, Middle East and Asia on a wide range of projects and are fully committed to help our clients make a positive change to the wider public realm'
+        },
+        { 
+          key: 'vision',
+          title: 'Vision',
+          icon: 'vision',
+          description: 'ARDH Limited is a design based practice established in 2019 in the UK. \
+          We offer consultancy services in Landscape Design, Urbanism and Place-making. \
+          We have worked with clients throughout the UK, Middle East and Asia on a wide range of projects and are fully committed to help our clients make a positive change to the wider public realm'
+        },
+        { 
+          key: 'philosophy',
+          title: 'Philosophy',
+          icon: 'philosophy',
+          description: 'ARDH Limited is a design based practice established in 2019 in the UK. \
+          We offer consultancy services in Landscape Design, Urbanism and Place-making. \
+          We have worked with clients throughout the UK, Middle East and Asia on a wide range of projects and are fully committed to help our clients make a positive change to the wider public realm'
+        }
+      ]
+    },
+  }
+}
 
 export default Home;
