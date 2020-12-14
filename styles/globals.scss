@@ -6,15 +6,12 @@
   src: url('/fonts/Interstate-light.ttf');
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-  letter-spacing: 5px;
-  text-transform: uppercase;
+@font-face {
+  font-display: swap;
+  font-family: 'Interstate Light';
+  src: local('Interstate Light'), url('/fonts/interstate-light.woff') format('woff');
 }
 
-p {
-  line-height: 1.4em;
-}
 html,
 body {
   padding: 0;
@@ -24,6 +21,17 @@ body {
 body {
   background-color: #ebebeb;
   font-family: 'Interstate';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Interstate Light';
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.4em;
 }
 
 a {
