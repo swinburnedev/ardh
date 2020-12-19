@@ -9,8 +9,8 @@ const QuoteTop = ({img, alt}) => (
         <div className={styles.image}>
           <Image
             src={img}
-            height="509"
-            width="789"
+            height="468"
+            width="472"
             alt={alt}
           />
         </div>

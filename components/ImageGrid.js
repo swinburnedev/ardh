@@ -1,10 +1,9 @@
 import QuoteTop from '../components/cards/QuoteTop';
 import QuoteBottom from '../components/cards/QuoteBottom';
 import FullImage from '../components/cards/FullImage';
-import styles from '../styles/components/ImageGrid.module.scss';
 
 const ImageGrid = ({cards}) => (
-  <div className={styles.imageGrid}>
+  <div>
     { cards.map(card => {
         switch (card.type) {
           case 'quote-top':
@@ -16,6 +15,13 @@ const ImageGrid = ({cards}) => (
         }
       })
     }
+    <style jsx>{`
+      background-color: #f5f5f5;
+      display: flex;
+      flex-flow: row wrap;
+      padding: 0.25rem;
+      width: 100%;
+    `}</style>
   </div>
 )
 

@@ -1,14 +1,12 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import TabbedIcons from '../components/TabbedIcons';
-import Masonary from '../components/Masonary';
+import ImageGrid from '../components/ImageGrid';
 import styles from '../styles/Home.module.scss';
-import utils from '../styles/Utils.module.scss';
 
-const Home = ({tabs}) => {
+const Home = ({cards, tabs}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,7 +17,7 @@ const Home = ({tabs}) => {
         <Header />
         <Hero />
         <TabbedIcons tabs={tabs} />
-        <Masonary />
+        <ImageGrid cards={cards} />
         <Footer />
       </main>
     </div>
@@ -54,6 +52,42 @@ export async function getStaticProps() {
           description: 'ARDH Limited is a design based practice established in 2019 in the UK. \
           We offer consultancy services in Landscape Design, Urbanism and Place-making. \
           We have worked with clients throughout the UK, Middle East and Asia on a wide range of projects and are fully committed to help our clients make a positive change to the wider public realm'
+        }
+      ],
+      cards: [
+        {
+          type: 'quote-top',
+          quote: 'Beauty perishes in life, but is immortal in art',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        },
+        {
+          type: 'quote-bottom',
+          quote: 'If i had asked people what they wanted quote',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        },
+        {
+          type: 'image',
+          img: '/img/inspiration/decking-design.jpg',
+          alt: ''
+        },
+        {
+          type: 'quote-bottom',
+          quote: 'If i had asked people what they wanted quote',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        },
+        {
+          type: 'image',
+          img: '/img/inspiration/decking-design.jpg',
+          alt: ''
+        },
+        {
+          type: 'quote-top',
+          quote: 'Beauty perishes in life, but is immortal in art',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
         }
       ]
     },

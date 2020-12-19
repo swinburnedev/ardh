@@ -1,6 +1,8 @@
+$gutter: 100vw * 0.003;
+
 .card {
-  width: 33vw;
-  margin-right: 0.3vw;
+  width: 33%;
+  margin: 0 $gutter $gutter 0;
 }
 .image {
   display: flex;
@@ -12,12 +14,12 @@
 
   &__top {
     background-color: #939A9C;
-    margin-bottom: 0.3vw;
+    margin-bottom: $gutter;
   }
 
   &__bottom {
     background-color: #687677;
-    margin-top: 0.3vw;
+    margin-top: $gutter;;
   }
 
   &__text {

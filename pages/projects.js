@@ -3,7 +3,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Masonary from '../components/Masonary';
 import styles from '../styles/Home.module.scss';
-import utils from '../styles/Utils.module.scss';
 
 const Projects = () => {
   return (
@@ -17,9 +16,7 @@ const Projects = () => {
           <Header />
           <Footer />
         </div>
-        <div className={`${styles.fifty} ${utils.bg__white}`}>
-          <Masonary />
-        </div>
+        <Masonary />
       </main>
     </div>
   )
