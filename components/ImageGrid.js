@@ -16,11 +16,15 @@ const ImageGrid = ({cards}) => (
       })
     }
     <style jsx>{`
-      background-color: #f5f5f5;
-      display: flex;
-      flex-flow: row wrap;
-      padding: 0.25rem;
-      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: masonry;
+      grid-gap: 10px;
+      padding: 10px;
+
+      @media screen and (min-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
     `}</style>
   </div>
 )

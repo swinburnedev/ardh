@@ -1,15 +1,24 @@
-$gutter: 100vw * 0.003;
+$gutter: 10px;
 
 .card {
-  width: 33%;
-  margin: 0 $gutter $gutter 0;
+  display: flex;
+  position: relative;
 }
+
 .image {
   display: flex;
 }
+.image__full {
+  height: auto;
+  width: 100vw;
+  max-height: 468px;
+  max-width: 472px;
+}
+
 .quote {
+  display: flex;
   color: #ffffff;
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   text-align: center;
 
   &__top {
@@ -23,11 +32,34 @@ $gutter: 100vw * 0.003;
   }
 
   &__text {
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-family: 'Interstate Light';
     font-weight: 100;
     letter-spacing: 5px;
     line-height: 2rem;
     text-transform: uppercase;
+  }
+}
+
+.image__mobile {
+  display: block;
+}
+.image__desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    padding: 2rem 4rem;
+    
+    &__text {
+      font-size: 1.6rem;
+    }
+  }
+  .image__mobile {
+    display: none;
+  }
+  .image__desktop {
+    display: block;
   }
 }
