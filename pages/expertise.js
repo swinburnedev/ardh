@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.scss';
 
 const Expertise = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Expertise | ARDH</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +20,7 @@ const Expertise = () => {
           <ImageGrid />
         </div>
       </main>
-    </div>
+    </>
   )
 };
 

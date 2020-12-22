@@ -4,11 +4,10 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import TabbedIcons from '../components/TabbedIcons';
 import ImageGrid from '../components/ImageGrid';
-import styles from '../styles/Home.module.scss';
 
 const Home = ({cards, tabs}) => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Home | ARDH</title>
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +19,7 @@ const Home = ({cards, tabs}) => {
         <ImageGrid cards={cards} />
         <Footer />
       </main>
-    </div>
+    </>
   )
 };
 

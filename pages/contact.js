@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.scss';
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Contact | ARDH</title>
         <link rel="icon" href="/favicon.ico" />
@@ -16,7 +16,7 @@ const Contact = () => {
           <Image src="/img/banner/contact.jpg" width={2000} height={843} />
           <Footer />
       </main>
-    </div>
+    </>
   )
 };
 

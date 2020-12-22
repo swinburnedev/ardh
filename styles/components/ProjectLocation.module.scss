@@ -1,0 +1,20 @@
+.project {
+  background-color: #8b9d9d;
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+
+  &__details {
+    padding: 8% 0 8% 6%;
+    width: 40%;
+  }
+
+  &__map {
+    position: relative;
+    width: 60%;
+  }
+
+  h1, h2, p {
+    color: white;
+  }
+}
