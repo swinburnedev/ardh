@@ -1,4 +1,5 @@
 .nav {
+  $nav: &;
   margin-left: auto;
   text-align: right;
 
@@ -24,12 +25,32 @@
       font-size: 1.2rem;
       font-weight: bold;
       line-height: 2.2rem;
+      position: relative;
     }
 
     &__active {
       a {
         color: #000000;
       }
+
+      @media screen and (min-width: 768px) {
+        #{$nav}__submenu {
+          display: block;
+          list-style: none;
+          position: absolute;
+          top: 0;
+          right: 7rem;
+  
+          li {
+            display: inline;
+            margin-left: 1rem;
+          }
+        }
+      }
     }
+  }
+
+  &__submenu {
+    display: none;
   }
 }

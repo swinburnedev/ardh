@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Masonary from '../components/Masonary';
-import styles from '../styles/Home.module.scss';
 
 const Projects = () => {
   return (
@@ -12,9 +11,9 @@ const Projects = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-          <Header />
-          <Footer />
+        <Header />
         <Masonary />
+        <Footer />
       </main>
     </>
   )

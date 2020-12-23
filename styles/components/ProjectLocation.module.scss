@@ -17,4 +17,15 @@
   h1, h2, p {
     color: white;
   }
+
+  h1, h2 {
+    font-size: 2rem;
+    margin: 0 0 3rem 0;
+    text-transform: initial;
+  }
+  p {
+    letter-spacing: 3px;
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+  }
 }

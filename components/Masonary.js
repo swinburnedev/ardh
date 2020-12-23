@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../styles/components/Masonary.module.scss';
+import styles from '../styles/components/ImageGrid.module.scss';
 
 const Masonary = () => (
   <div className={styles.masonry}>
