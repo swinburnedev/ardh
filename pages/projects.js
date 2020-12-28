@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Masonary from '../components/Masonary';
+import ImageGrid from '../components/ImageGrid';
 
-const Projects = () => {
+const Projects = ({cards}) => {
   return (
     <>
       <Head>
@@ -12,11 +12,54 @@ const Projects = () => {
       </Head>
       <main>
         <Header />
-        <Masonary />
+        <ImageGrid cards={cards} />
         <Footer />
       </main>
     </>
   )
 };
+
+export async function getStaticProps() {
+  return {
+    props: {
+      cards: [
+        {
+          type: 'quote-top',
+          quote: 'Beauty perishes in life, but is immortal in art',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        },
+        {
+          type: 'quote-bottom',
+          quote: 'If i had asked people what they wanted quote',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        },
+        {
+          type: 'image',
+          img: '/img/inspiration/decking-design.jpg',
+          alt: ''
+        },
+        {
+          type: 'quote-bottom',
+          quote: 'If i had asked people what they wanted quote',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        },
+        {
+          type: 'image',
+          img: '/img/inspiration/decking-design.jpg',
+          alt: ''
+        },
+        {
+          type: 'quote-top',
+          quote: 'Beauty perishes in life, but is immortal in art',
+          img: '/img/inspiration/basketball-court.jpg',
+          alt: ''
+        }
+      ]
+    }
+  }
+}
 
 export default Projects;

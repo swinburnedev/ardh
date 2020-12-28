@@ -2,21 +2,23 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../../styles/components/Cards.module.scss';
 
-const QuoteTop = ({quote, img, alt}) => (
+const QuoteTop = ({quote, img, alt, url}) => (
   <div className={styles.card}>
-    <Link href="/">
-      <a>
-        <div className={`${styles.quote} ${styles.quote__top}`}>
+    <div className={`${styles.quote} ${styles.quote__top}`}>
+      <Link href={url}>
+        <a>
           <q className={styles.quote__text}>{ quote }</q>
-        </div>
-        <div className={styles.image}>
-          <Image
-            src={img}
-            height="509"
-            width="789"
-            alt={alt}
-          />
-        </div>
+        </a>
+      </Link>
+    </div>
+    <Link href={url}>
+      <a className={styles.image}>
+        <Image
+          src={img}
+          height="509"
+          width="789"
+          alt={alt}
+        />
       </a>
     </Link>
   </div>

@@ -1,13 +1,15 @@
-$gutter: 10px;
+$gutter: 5px;
 
 .card {
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 
 .image {
   display: flex;
 }
+
 .image__full {
   height: auto;
   width: 100vw;
@@ -16,9 +18,9 @@ $gutter: 10px;
 }
 
 .quote {
-  display: flex;
   color: #ffffff;
-  padding: 1rem 2rem;
+  flex: 1; 
+  min-height: 100px;
   text-align: center;
 
   &__top {
@@ -50,7 +52,7 @@ $gutter: 10px;
 
 @media screen and (min-width: 1024px) {
   .quote {
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
     
     &__text {
       font-size: 1.6rem;
@@ -61,5 +63,11 @@ $gutter: 10px;
   }
   .image__desktop {
     display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .quote {
+    padding: 2rem 4rem;
   }
 }
