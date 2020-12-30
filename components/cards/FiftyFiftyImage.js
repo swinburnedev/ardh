@@ -6,18 +6,18 @@ const QuoteTop = ({imgTop, altTop, imgBottom, altBotom, url}) => (
   <div className={styles.card}>
     <Link href={url}>
       <a>
-        <div className={`${styles.image__top}`}>
+        <div className={`${styles.image} ${styles.image__fifty}`}>
           <Image
             src={imgTop}
-            height="332"
+            height="420"
             width="789"
             alt={altTop}
           />
         </div>
-        <div className={styles.image}>
+        <div className={`${styles.image}`}>
           <Image
             src={imgBottom}
-            height="509"
+            height="420"
             width="789"
             alt={altBotom}
           />

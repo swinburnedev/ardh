@@ -1,0 +1,18 @@
+[
+  {
+    "id": "golden-halo-garden",
+    "title": "Golden Halo Garden",
+    "img": "/img/project/Gated Community Arrival Plaza India.jpg",
+    "alt": "alt",
+    "location": "Dubai - United Arab Emirates",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "project-2",
+    "title": "Project 2",
+    "img": "/img/inspiration/decking-design.jpg",
+    "alt": "alt",
+    "location": "Birmingham",
+    "map": "/img/location/dubai.png"
+  }
+]

@@ -28,35 +28,41 @@ export async function getStaticProps() {
           type: 'quote-top',
           quote: 'Beauty perishes in life, but is immortal in art',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'quote-bottom',
           quote: 'If i had asked people what they wanted quote',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'image',
           img: '/img/inspiration/decking-design.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'quote-bottom',
           quote: 'If i had asked people what they wanted quote',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'image',
           img: '/img/inspiration/decking-design.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'quote-top',
           quote: 'Beauty perishes in life, but is immortal in art',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         }
       ]
     },

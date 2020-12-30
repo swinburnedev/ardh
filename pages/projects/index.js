@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ImageGrid from '../components/ImageGrid';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import ImageGrid from '../../components/ImageGrid';
 
 const Projects = ({cards}) => {
   return (
@@ -24,38 +24,45 @@ export async function getStaticProps() {
     props: {
       cards: [
         {
-          type: 'quote-top',
-          quote: 'Beauty perishes in life, but is immortal in art',
-          img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          type: 'fify-image',
+          imgTop: '/img/inspiration/paint.png',
+          altTop: 'Alt top',
+          imgBottom: '/img/inspiration/basketball-court.jpg',
+          altBottom: 'Alt top',
+          url: '/projects/civil/golden-halo-garden'
         },
         {
           type: 'quote-bottom',
           quote: 'If i had asked people what they wanted quote',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'image',
           img: '/img/inspiration/decking-design.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'quote-bottom',
           quote: 'If i had asked people what they wanted quote',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'image',
           img: '/img/inspiration/decking-design.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         },
         {
           type: 'quote-top',
           quote: 'Beauty perishes in life, but is immortal in art',
           img: '/img/inspiration/basketball-court.jpg',
-          alt: ''
+          alt: '',
+          url: '/test'
         }
       ]
     }

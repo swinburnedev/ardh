@@ -2,9 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../../styles/components/Cards.module.scss';
 
-const QuoteTop = ({img, alt}) => (
+const QuoteTop = ({img, alt, url}) => (
   <div className={styles.card}>
-    <Link href="/">
+    <Link href={url}>
       <a>
         <div className={`${styles.image} ${styles.image__desktop}`}>
           <Image

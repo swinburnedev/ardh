@@ -1,20 +1,23 @@
 import QuoteTop from '../components/cards/QuoteTop';
 import QuoteBottom from '../components/cards/QuoteBottom';
+import FiftyFiftyImage from '../components/cards/FiftyFiftyImage';
 import FullImage from '../components/cards/FullImage';
 import DoubleImage from '../components/cards/DoubleImage';
 
 const ImageGrid = ({cards}) => (
   <div>
-    { cards && cards.map(card => {
+    { cards && cards.map((card, i) => {
         switch (card.type) {
+          case 'fify-image':
+            return <FiftyFiftyImage key={i} {...card} />;
           case 'double-image':
-            return <DoubleImage {...card} />;
+            return <DoubleImage key={i} {...card} />;
           case 'quote-top':
-            return <QuoteTop {...card} />;
+            return <QuoteTop key={i} {...card} />;
           case 'quote-bottom':
-            return <QuoteBottom {...card} />;
+            return <QuoteBottom key={i} {...card} />;
           case 'image':
-            return <FullImage {...card} />;
+            return <FullImage key={i} {...card} />;
         }
       })
     }
