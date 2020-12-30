@@ -10,11 +10,11 @@ const ProjectLocation = ({location, map, title}) => (
       <h2>{location}</h2>
     </div>
     <div className={styles.project__map}>
-      <Image
+      {map && <Image
         src={map}
         layout="fill"
         alt={location}
-      />
+      />}
     </div>
   </div>
 )

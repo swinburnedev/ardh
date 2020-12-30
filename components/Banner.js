@@ -14,12 +14,12 @@ const Banner = ({img, alt}) => (
         />
       </a>
     </Link>
-    <Image
+    {img && <Image
       src={img}
       height="998"
       width="1920"
       alt={alt}
-    />
+    />}
     <Link href="/next">
       <a className={styles.next}>
         <Image
