@@ -1,8 +1,8 @@
-import ImageGridLayout from '../../../layouts/ImageGrid';
+import MasonaryLayout from '../../../layouts/MasonaryLayout';
 
 const Civil = ({cards}) => {
   return (
-    <ImageGridLayout title="Civil | Projects | ARDH" cards={cards} />
+    <MasonaryLayout title="Civil | Projects | ARDH" cards={cards} />
   )
 };
 

@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import TabbedIcons from '../components/TabbedIcons';
-import ImageGrid from '../components/ImageGrid';
+import Masonary from '../components/Masonary';
 
 const Home = ({cards, tabs}) => {
   return (
@@ -16,7 +16,7 @@ const Home = ({cards, tabs}) => {
         <Header />
         <Hero />
         <TabbedIcons tabs={tabs} />
-        <ImageGrid cards={cards} />
+        <Masonary cards={cards} />
         <Footer />
       </main>
     </>

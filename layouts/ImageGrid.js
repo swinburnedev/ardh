@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import ImageGrid from '../components/ImageGrid';
+import Masonary from '../components/Masonary';
 
-const ImageGridLayout = ({title, cards}) => {
+const MasonaryLayout = ({title, cards}) => {
   return (
     <>
       <Head>
@@ -12,11 +12,11 @@ const ImageGridLayout = ({title, cards}) => {
       </Head>
       <main>
         <Header />
-        <ImageGrid cards={cards} />
+        <Masonary cards={cards} />
         <Footer />
       </main>
     </>
   )
 };
 
-export default ImageGridLayout;
+export default MasonaryLayout;

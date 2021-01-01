@@ -1,6 +1,7 @@
 [
   {
     "id": "golden-halo-garden",
+    "slug": ["civil", "golden-halo-garden"],
     "title": "Golden Halo Garden",
     "img": "/img/project/Gated Community Arrival Plaza India.jpg",
     "alt": "alt",
@@ -9,7 +10,17 @@
   },
   {
     "id": "project-2",
+    "slug": ["civil", "project-2"],
     "title": "Project 2",
+    "img": "/img/inspiration/decking-design.jpg",
+    "alt": "alt",
+    "location": "Birmingham",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "project-1",
+    "slug": ["project-2"],
+    "title": "Project 1",
     "img": "/img/inspiration/decking-design.jpg",
     "alt": "alt",
     "location": "Birmingham",

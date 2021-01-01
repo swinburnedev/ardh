@@ -1,55 +1,42 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from '../styles/components/ImageGrid.module.scss';
+import QuoteTop from '../components/cards/QuoteTop';
+import QuoteBottom from '../components/cards/QuoteBottom';
+import FiftyFiftyImage from '../components/cards/FiftyFiftyImage';
+import FullImage from '../components/cards/FullImage';
+import DoubleImage from '../components/cards/DoubleImage';
 
-const Masonary = () => (
-  <div className={styles.masonry}>
-    <div className={styles.masonry__left}>
-      <div className={styles.masonry__image}>
-        <Image
-          src={`https://via.placeholder.com/450x250.png?text=Image 1`}
-          height="250"
-          width="450"
-          alt="1"
-        />
-      </div>
-      <div className={styles.masonry__title}>
-        <Link href="/">
-          <a className={styles.masonry__link}>Title 1</a>
-        </Link>
-      </div>
-    </div>
-    <div className={styles.masonry__right}>
-      <div className={styles.masonry__title}>
-        <Link href="/">
-          <a className={styles.masonry__link}>Title 2</a>
-        </Link>
-      </div>
-      <div className={styles.masonry__image}>
-        <Image
-          src={`https://via.placeholder.com/450x250.png?text=Image 2`}
-          height="250"
-          width="450"
-          alt="1"
-        />
-      </div>
-    </div>
-    <div className={styles.masonry__left}>
-      <div className={styles.masonry__image}>
-        <Image
-          src={`https://via.placeholder.com/450x250.png?text=Image 3`}
-          height="250"
-          width="450"
-          alt="1"
-        />
-      </div>
-      <div className={styles.masonry__title}>
-        <Link href="/">
-          <a className={styles.masonry__link}>Title 3</a>
-        </Link>
-      </div>
-    </div>
+const Masonry = ({cards}) => (
+  <div>
+    { cards && cards.map((card, i) => {
+        switch (card.type) {
+          case 'fify-image':
+            return <FiftyFiftyImage key={i} {...card} />;
+          case 'double-image':
+            return <DoubleImage key={i} {...card} />;
+          case 'quote-top':
+            return <QuoteTop key={i} {...card} />;
+          case 'quote-bottom':
+            return <QuoteBottom key={i} {...card} />;
+          case 'image':
+            return <FullImage key={i} {...card} />;
+        }
+      })
+    }
+    <style jsx>{`
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: masonry;
+      grid-gap: 5px;
+      padding: 5px;
+
+      @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media screen and (min-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    `}</style>
   </div>
 )
 
-export default Masonary;
+export default Masonry;

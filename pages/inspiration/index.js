@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ImageGrid from '../components/ImageGrid';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Masonary from '../../components/Masonary';
 
 const Inspiration = ({cards}) => {
   return (
@@ -12,14 +12,13 @@ const Inspiration = ({cards}) => {
       </Head>
       <main>
           <Header />
-          <ImageGrid cards={cards} />
+          <Masonary cards={cards} />
           <Footer />
       </main>
     </>
   )
 };
 
-// This function gets called at build time
 export async function getStaticProps() {
   return {
     props: {
@@ -29,40 +28,40 @@ export async function getStaticProps() {
           quote: 'Beauty perishes in life, but is immortal in art',
           img: '/img/inspiration/basketball-court.jpg',
           alt: '',
-          url: '/test'
+          url: '/inspiration/quotes'
         },
         {
           type: 'quote-bottom',
           quote: 'If i had asked people what they wanted quote',
           img: '/img/inspiration/basketball-court.jpg',
           alt: '',
-          url: '/test'
+          url: '/inspiration/materials'
         },
         {
           type: 'image',
           img: '/img/inspiration/decking-design.jpg',
           alt: '',
-          url: '/test'
+          url: '/inspiration/images'
         },
         {
           type: 'quote-bottom',
           quote: 'If i had asked people what they wanted quote',
           img: '/img/inspiration/basketball-court.jpg',
           alt: '',
-          url: '/test'
+          url: '/inspiration/materials'
         },
         {
           type: 'image',
           img: '/img/inspiration/decking-design.jpg',
           alt: '',
-          url: '/test'
+          url: '/inspiration/images'
         },
         {
           type: 'quote-top',
           quote: 'Beauty perishes in life, but is immortal in art',
           img: '/img/inspiration/basketball-court.jpg',
           alt: '',
-          url: '/test'
+          url: '/inspiration/quotes'
         }
       ]
     },

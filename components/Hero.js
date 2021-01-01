@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from '../styles/components/Hero.module.scss';
 
+//TODO update hardcoded values - is this still used
 const Hero = () => (
   <div className={styles.hero}>
     <div className={styles.hero__image}>
