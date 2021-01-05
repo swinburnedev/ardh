@@ -1,7 +1,12 @@
 import Image from 'next/image';
 import styles from '../styles/components/ImageGrid.module.scss';
 
-const ImageGrid = ({cards}) => {
+const ImageGrid = ({cards, setActive, setIndex}) => {
+  const launchCarousel = e => {
+    const { id } = e.target;
+    setIndex(id);
+    setActive(true);
+  }
   return (
     <div>
       { cards && cards.map((card, i) => (
@@ -9,10 +14,12 @@ const ImageGrid = ({cards}) => {
           <Image
             className={styles.image}
             key={i}
+            id={i}
             alt={card.alt}
             src={card.img} 
             height={270}
             width={480}
+            onClick={launchCarousel}
           />
         )
       )}

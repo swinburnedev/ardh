@@ -1,0 +1,61 @@
+.icon {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+}
+
+.close {
+  background-color: white;
+  display: none;
+  right: 0;
+  padding: 1.5rem 1.5rem 1rem 1rem;
+  top: 0;
+  z-index: 10;
+}
+
+.next, .prev {
+  top: calc(50% - 36px);
+}
+
+.next {
+  right: -75px;
+}
+
+.prev {
+  left: -75px;
+}
+
+.lightbox {
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+
+  &__active {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+
+    .close {
+      display: block;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+
+  &__description {
+    margin-bottom: 3rem;
+  }
+
+  &__thumbnail {
+    display: inline-block;
+    box-shadow: 3px 3px 20px 3px #a7adb0;
+    padding: 0.75rem;
+    position: relative;
+  }
+}

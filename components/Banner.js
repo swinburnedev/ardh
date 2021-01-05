@@ -10,7 +10,7 @@ const Banner = ({img, alt}) => (
           src="/img/svg/prev.svg"
           height="24"
           width="14"
-          alt="Next"
+          alt="Previous"
         />
       </a>
     </Link>
