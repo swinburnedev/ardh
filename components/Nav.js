@@ -38,7 +38,7 @@ const Nav = () => {
               </li>
             </ul>
           </li>
-          <li className={`${styles.nav__has__submenu} ${router.pathname == "/inspiration" ? styles.nav__menu__active : ''}`}>
+          <li className={`${styles.nav__has__submenu} ${router.pathname.includes("/inspiration") ? styles.nav__menu__active : ''}`}>
             <Link href="/inspiration">
               <a>Inspiration</a>
             </Link>
@@ -48,7 +48,7 @@ const Nav = () => {
                   <a>Images</a>
                 </Link>
               </li>
-              <li className={styles.nav__submenu__item}>
+              <li className={`${styles.nav__submenu__item} ${router.pathname.includes("/inspiration/materials") ? styles.nav__menu__active : ''}`}>
                 <Link href="/inspiration/materials">
                   <a>Materials</a>
                 </Link>
