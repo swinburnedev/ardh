@@ -1,10 +1,33 @@
 .logo {
+  height: 60px;
+
+  img {
+    height: 60px;
+    width: 50px;
+  }
+
   &::after {
     background-color: black;
     display: inline-block;
-    height: 120px;
-    margin-left: 2rem;
+    height: 60px;
+    margin-left: 1rem;
     content: '';
-    width: 3px;
+    width: 2px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .logo {
+    height: 120px;
+  
+    img {
+      height: 120px;
+      width: 100px;
+    }
+
+    &::after {
+      height: 120px;
+      width: 3px;
+    }
   }
 }

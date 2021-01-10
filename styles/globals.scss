@@ -53,8 +53,8 @@ main {
   z-index: -1;
   display: block;
   pointer-events:none;
-  height: 100px;
-  width: 125px;
+  height: 64px;
+  width: 80px;
 
   path {
     fill: #cccec9;
@@ -63,5 +63,12 @@ main {
 .button__icon__active {
   path {
     fill: #1b282f;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .button__icon {
+    height: 100px;
+    width: 125px;
   }
 }

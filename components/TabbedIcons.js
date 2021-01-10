@@ -15,11 +15,11 @@ const TabbedIcons = ({tabs}) => {
     });
     switch (key) {
       case 'establishment':
-        return <Establishment className={imgClass} />;
+        return <Establishment className={imgClass} height={189} width={213} />;
       case 'philosophy':
-        return <Philosophy className={imgClass} />;
+        return <Philosophy className={imgClass} height={203} width={152} />;
       case 'vision':
-        return <Vision className={imgClass} />;
+        return <Vision className={imgClass} height={215} width={162} />;
     }
   }
   const selectTab = e => {
@@ -41,7 +41,7 @@ const TabbedIcons = ({tabs}) => {
           tab__inactive: activeTab !== tab.key,
           tab__active: activeTab === tab.key
         });
-        console.log('tabClass:', tabClass);
+
         return (
           <div key={tab.key} className={styles[tabClass]}>
             <h3 className={styles.tab__title}>{tab.title}</h3>

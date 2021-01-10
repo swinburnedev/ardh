@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 import TabbedIcons from '../components/TabbedIcons';
 import Masonary from '../components/Masonary';
 
-const Home = ({cards, tabs}) => {
+const Home = ({cards, hero, tabs}) => {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ const Home = ({cards, tabs}) => {
       </Head>
       <main>
         <Header />
-        <Hero />
+        <Hero slides={hero} />
         <TabbedIcons tabs={tabs} />
         <Masonary cards={cards} />
         <Footer />
@@ -26,6 +26,22 @@ const Home = ({cards, tabs}) => {
 export async function getStaticProps() {
   return {
     props: {
+      hero: [
+        {
+          img: '/img/banner/civil_public_garden.jpg',
+          alt: 'Civil public garden',
+          title: 'Civil / Public Realm',
+          subtitle: 'Info',
+          url: ''
+        },
+        {
+          img: '/img/banner/private_garden_leeds.jpg',
+          alt: 'Civil public garden',
+          title: 'Residential',
+          subtitle: 'Info',
+          url: ''
+        }
+      ],
       tabs: [
         { 
           key: 'establishment',

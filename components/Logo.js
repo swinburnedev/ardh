@@ -10,6 +10,7 @@ const Logo = () => (
         height="120"
         width="100"
         alt="ARDH"
+        layout="intrinsic"
       />
     </a>
   </Link>

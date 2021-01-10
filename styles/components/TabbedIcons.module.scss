@@ -1,14 +1,17 @@
 .tab {
-  margin: 6rem auto 4rem;
+  margin: 3rem auto 2rem;
   text-align: center;
+
+  button {
+    display: inline-block;
+  }
 
   &__links {
     background-color: inherit;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0;
-    padding: 0 6rem;
+    padding: 0 1.5rem;
   }
 
   &__inactive {
@@ -18,7 +21,8 @@
   &__active {
     display: block;
     line-height: 1.4rem;
-    margin: 0 auto 6rem;
+    margin: 0 auto 3rem;
+    padding: 0 1rem;
     text-align: center;
 
     @media screen and (min-width: 768px) {
@@ -29,5 +33,24 @@
   &__title {
     font-size: 1.75rem;
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tab {
+    margin: 6rem auto 4rem;
+  
+    button {
+      display: inline-block;
+    }
+  
+    &__links {
+      padding: 0 6rem;
+    }
+
+    &__active {
+      line-height: 1.4rem;
+      margin: 0 auto 6rem;
+    }
   }
 }
