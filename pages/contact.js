@@ -12,7 +12,18 @@ const Contact = () => {
       </Head>
       <main>
           <Header />
-          <Image src="/img/banner/contact.jpg" width={2000} height={843} />
+          {/* <Image src="/img/banner/contact.jpg" width={2000} height={843} /> */}
+          <div>
+            <Image src="/img/banner/contact.jpg" width={750} height={523} layout="intrinsic" />
+            <style jsx>{`
+                background-color: #8a9ca6;
+                display: flex;
+                justify-content: center;
+                padding: 6%;
+                width: 100%;
+              }
+            `}</style>
+          </div>
           <Footer />
       </main>
     </>

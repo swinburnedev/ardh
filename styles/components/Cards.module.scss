@@ -22,6 +22,8 @@ $gutter: 5px;
 }
 
 .quote {
+  display: flex;
+  align-items: center;
   color: #ffffff;
   flex: 1; 
   min-height: 100px;
@@ -48,7 +50,7 @@ $gutter: 5px;
 }
 
 .image__mobile {
-  display: block;
+  display: flex;
 }
 .image__desktop {
   display: none;
