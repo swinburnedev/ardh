@@ -1,17 +1,16 @@
 .project {
   background-color: #8b9d9d;
   display: flex;
+  flex-direction: column;
   padding: 1rem;
   width: 100%;
 
   &__details {
     padding: 8% 0 8% 6%;
-    width: 40%;
   }
 
   &__map {
-    position: relative;
-    width: 60%;
+    display: flex;
   }
 
   h1, h2, p {
@@ -27,5 +26,20 @@
     letter-spacing: 3px;
     margin: 0.5rem 0;
     text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .project {
+    flex-direction: row;
+
+    &__details {
+      width: 45%;
+    }
+
+    &__map {
+      position: relative;
+      width: 55%;
+    }
   }
 }

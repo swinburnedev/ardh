@@ -1,7 +1,15 @@
+
+// import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import styles from '../styles/components/ProjectLocation.module.scss';
 
-const ProjectLocation = ({location, map, title}) => (
+const ProjectLocation = ({location, map, title}) => {
+  // TODO test & remove layout
+  // const [layout, setLayout] = useState('intrinsic');
+  // useEffect(() => {
+  //   setLayout(window.innerWidth > 750 ? 'fill' : 'intrinsic');
+  // });
+  return (
   <div className={styles.project}>
     <div className={styles.project__details}>
       <p>Project Name</p>
@@ -12,11 +20,13 @@ const ProjectLocation = ({location, map, title}) => (
     <div className={styles.project__map}>
       {map && <Image
         src={map}
-        layout="fill"
+        height={570}
+        width={1177}
         alt={location}
       />}
     </div>
   </div>
 )
+      }
 
 export default ProjectLocation;
