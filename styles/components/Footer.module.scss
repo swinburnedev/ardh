@@ -3,6 +3,10 @@
   padding: 0 1rem;
   text-align: center;
 
+  &__link {
+    text-decoration: underline;
+  }
+
   p {
     color: #1b282f;
   }
@@ -25,10 +29,15 @@
   &__icon {
     height: 32px;
     width: 32px;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
 
     path {
       fill:#1b282f;
-      
     }
   }
 }

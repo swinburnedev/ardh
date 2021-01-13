@@ -12,7 +12,7 @@ const Footer = () => (
     United Kingdom<br />
     LE67 3FA<br />
     +44 (0)116 222 222</p>
-    <p>For new business enquiries please email Ayad on info@ardh.co.uk</p>
+    <p>For new business enquiries please email Ayad on <a className={styles.footer__link} href="mailto:info@ardh.co.uk">info@ardh.co.uk</a></p>
     <ul className={styles.social}>
       <li className={styles.social__item}>
         <a
