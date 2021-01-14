@@ -5,7 +5,7 @@ import FullImage from '../components/cards/FullImage';
 import DoubleImage from '../components/cards/DoubleImage';
 
 const Masonry = ({cards}) => (
-  <div>
+  <div className="container">
     { cards && cards.map((card, i) => {
         switch (card.type) {
           case 'fify-image':

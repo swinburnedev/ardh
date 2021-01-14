@@ -1,10 +1,16 @@
 .banner {
   display: flex;
   position: relative;
+
+  &__image {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .next, .prev {
   background-color: white;
+  border: none;
   display: block;
   height: 34px;
   padding: 4px 10px;

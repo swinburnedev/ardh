@@ -3,7 +3,7 @@ import Nav from './Nav';
 import styles from '../styles/components/Header.module.scss';
 
 const Header = () => (
-  <header className={styles.header}>
+  <header className={`${styles.header} container`}>
     <Logo />
     <Nav />
   </header>

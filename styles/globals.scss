@@ -49,6 +49,11 @@ main {
   flex-wrap: wrap;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
 .button__icon {
   z-index: -1;
   display: block;

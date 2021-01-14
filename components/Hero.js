@@ -25,13 +25,14 @@ const Hero = ({slides}) => {
   const {img, alt, title, subtitle, url} = slides[index];
   return (
     <div className={styles.hero}>
+      {/* <div className={`${styles.hero} container`}> */}
       <img
         className={styles.hero__image}
         src={img}
         height="700"
         width="1465"
         alt={alt}
-        layout="intrinsic"
+        // layout="responsive"
       />
       <div className={`${styles.hero__panel} ${animateClass}`}>
         <Link href={url}>
