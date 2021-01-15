@@ -1,0 +1,53 @@
+[
+  {
+    "id": "golden-halo-garden",
+    "slug": ["residential", "golden-halo-garden"],
+    "title": "Golden Halo Garden",
+    "images": [
+      {
+        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
+        "alt": "alt"
+      },
+      {
+        "img": "/img/inspiration/decking-design.jpg",
+        "alt": "alt"
+      }
+    ],
+    "location": "Dubai - United Arab Emirates",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "residential-2",
+    "slug": ["residential", "project-2"],
+    "title": "Residential 2",
+    "images": [
+      {
+        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
+        "alt": "alt"
+      },
+      {
+        "img": "/img/inspiration/decking-design.jpg",
+        "alt": "alt"
+      }
+    ],
+    "location": "Birmingham",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "residential-3",
+    "slug": ["residential", "project-3"],
+    "title": "Residential 3",
+    "images": [
+      {
+        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
+        "alt": "alt"
+      },
+      {
+        "img": "/img/inspiration/decking-design.jpg",
+        "alt": "alt"
+      }
+    ],
+    "location": "Birmingham",
+    "map": "/img/location/dubai.png"
+  }
+]

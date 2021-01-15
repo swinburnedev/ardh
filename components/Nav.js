@@ -21,7 +21,7 @@ const Nav = () => {
               <a>Projects</a>
             </Link>
             <ul className={styles.nav__submenu}>
-              <li className={styles.nav__submenu__item}>
+              <li className={`${styles.nav__submenu__item} ${router.pathname.includes("/projects/residential") ? styles.nav__menu__active : ''}`}>
                 <Link href="/projects/residential">
                   <a>Residential</a>
                 </Link>
@@ -31,7 +31,7 @@ const Nav = () => {
                   <a>Civil/Public Realm</a>
                 </Link>
               </li>
-              <li className={styles.nav__submenu__item}>
+              <li className={`${styles.nav__submenu__item} ${router.pathname.includes("/projects/leisure") ? styles.nav__menu__active : ''}`}>
                 <Link href="/projects/leisure">
                   <a>Leisure/Hospitality</a>
                 </Link>
