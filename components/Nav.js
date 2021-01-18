@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from "next/router";
 import Toggle from './Toggle';
@@ -5,12 +6,15 @@ import styles from '../styles/components/Nav.module.scss';
 
 const Nav = () => {
   const router = useRouter();
+  const [collapsed, setCollapsed] = useState(true);
+  const toggleMenu = () => setCollapsed(!collapsed);
+
   return (
     <nav className={styles.nav} role="navigation">
-      <div className={styles.nav__wrapper}>
-        <Toggle />
+      {/* <div className={styles.nav__wrapper}> */}
+        <Toggle toggleMenu={toggleMenu} />
 
-        <ul className={styles.nav__menu}>
+        <ul className={`${styles.nav__menu} ${collapsed ? styles.nav__collapsed : styles.nav__open}`}>
           <li className={router.pathname == "/expertise" ? styles.nav__menu__active : ""}>
             <Link href="/expertise">
               <a>Expertise</a>
@@ -66,7 +70,7 @@ const Nav = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      {/* </div> */}
     </nav>
   )
 };

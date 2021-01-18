@@ -26,7 +26,7 @@
     padding: 0 1rem;
     text-align: center;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 750px) {
       max-width: 45%;
     }
 
@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
   .tab {
     margin: 6rem auto 4rem;
   

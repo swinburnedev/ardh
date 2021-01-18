@@ -1,9 +1,9 @@
 import styles from '../styles/components/Toggle.module.scss';
 
-const Toggle = () => {
+const Toggle = ({toggleMenu}) => {
   return (
     <div className={styles.toggle}>
-      <input type="checkbox" />
+      <input type="checkbox" onClick={toggleMenu} />
       <span className={styles.toggle__bar}></span>
       <span className={styles.toggle__bar}></span>
     </div>
