@@ -8,7 +8,7 @@ const ImageGrid = ({cards, setActive, setIndex}) => {
     setActive(true);
   }
   return (
-    <div>
+    <div className="container">
       { cards && cards.map((card, i) => (
           // Img 16 x 9
           <Image
