@@ -2,13 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../../styles/components/Cards.module.scss';
 
-const QuoteTop = ({img, alt, url}) => (
+const FullImage = ({img, alt, url}) => (
   <div className={styles.card}>
     <Link href={url}>
       <a>
         <div className={`${styles.image} ${styles.image__desktop}`}>
+          {/* TODO add layout="fill" / image variant */}
           <Image
-            layout="fill"
+            height="765"
+            width="765"
             src={img}
             alt={alt}
           />
@@ -26,4 +28,4 @@ const QuoteTop = ({img, alt, url}) => (
   </div>
 )
 
-export default QuoteTop;
+export default FullImage;
