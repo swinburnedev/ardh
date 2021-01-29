@@ -1,25 +1,31 @@
 [
   {
-    "id": "golden-halo-garden",
-    "slug": ["civil", "golden-halo-garden"],
-    "title": "Golden Halo Garden",
+    "id": "gated-community",
+    "url": "/projects/civil/gated-community",
+    "title": "Gated Community",
+    "type": "image",
+    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
+    "alt" : "Gated Community Arrival Plaza",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
+        "img": "/img/project/civil/Gated_Community_Arrival_Plaza-India-AR.jpg",
+        "alt": "Gated Community Arrival Plaza India"
       },
       {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img": "/img/project/civil/Gated_Community_Sensory_Gardens-India-AR.jpg",
+        "alt": "Gated Community Sensory Gardens India"
       }
     ],
-    "location": "Dubai - United Arab Emirates",
+    "location": "Nagpur, India",
     "map": "/img/location/dubai.png"
   },
   {
-    "id": "project-2",
-    "slug": ["civil", "project-2"],
-    "title": "Project 2",
+    "id": "mixed-use-development",
+    "url": "/projects/civil/mixed-use-development",
+    "title": "Mixed Use Development",
+    "type": "image",
+    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
+    "alt" : "Mixed Use Development",
     "images": [
       {
         "img": "/img/project/Gated Community Arrival Plaza India.jpg",
@@ -30,13 +36,16 @@
         "alt": "alt"
       }
     ],
-    "location": "Birmingham",
+    "location": "Al Khor, Qatar",
     "map": "/img/location/dubai.png"
   },
   {
-    "id": "project-3",
-    "slug": ["civil", "project-3"],
-    "title": "Project 3",
+    "id": "neighberhood-park",
+    "url": "/projects/civil/neighberhood-park",
+    "title": "Neighberhood Park",
+    "type": "image",
+    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
+    "alt" : "Neighberhood Park",
     "images": [
       {
         "img": "/img/project/Gated Community Arrival Plaza India.jpg",
@@ -47,7 +56,27 @@
         "alt": "alt"
       }
     ],
-    "location": "Birmingham",
+    "location": "London, UK",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "village-green",
+    "url": "/projects/civil/village-green",
+    "title": "Village Green",
+    "type": "image",
+    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
+    "alt" : "Village Green",
+    "images": [
+      {
+        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
+        "alt": "alt"
+      },
+      {
+        "img": "/img/inspiration/decking-design.jpg",
+        "alt": "alt"
+      }
+    ],
+    "location": "Somerset, UK",
     "map": "/img/location/dubai.png"
   }
 ]
