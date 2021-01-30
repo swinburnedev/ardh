@@ -12,8 +12,7 @@ const Contact = () => {
       </Head>
       <main>
           <Header />
-          {/* <Image src="/img/banner/contact.jpg" width={2000} height={843} /> */}
-          <div>
+          <div className="container">
             <Image src="/img/banner/contact.jpg" width={550} height={384} layout="intrinsic" />
             <style jsx>{`
                 background-color: #8a9ca6;

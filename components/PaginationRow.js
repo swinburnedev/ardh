@@ -3,7 +3,7 @@ import styles from '../styles/components/PaginationRow.module.scss';
 
 const PaginationRow = ({next, prev}) => {
   return (
-    <div className={styles.pagination}>
+    <div className={`container ${styles.pagination}`}>
       <div className={styles.pagination__prev}>
         <p>Previous Project</p>
         <Link href={prev.url}>
