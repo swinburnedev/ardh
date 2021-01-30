@@ -29,7 +29,7 @@ const Banner = ({images}) => {
       <img
         className={styles.banner__image}
         src={img}
-        height="998"
+        height="1080"
         width="1920"
         alt={alt}
       />
