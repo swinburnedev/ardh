@@ -75,9 +75,9 @@
     }
   }
 
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1200px) {
     &__right {
-      transform: translate(calc(-1920px + 100%), 0);
+      transform: translate(calc(-1200px + 100%), 0);
     }
   }
 }
