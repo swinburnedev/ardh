@@ -29,7 +29,7 @@ export async function getStaticProps() {
           altTop: 'Alt top',
           imgBottom: '/img/inspiration/basketball-court.jpg',
           altBottom: 'Alt top',
-          url: '/projects/civil/golden-halo-garden'
+          url: '/projects/civil/gated-community'
         },
         {
           type: 'quote-bottom',
