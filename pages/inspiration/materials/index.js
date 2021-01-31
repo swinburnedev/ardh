@@ -3,7 +3,7 @@ import materials from './materials.json';
 
 const Materials = ({title, content}) => {
   return (
-    <Inspiration title={title} content={content} data={materials} maxCards={60} />
+    <Inspiration title={title} content={content} data={materials} maxCards={36} />
   )
 };
 

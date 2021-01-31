@@ -1,26 +1,103 @@
 [
   {
+    "img":"/img/inspiration/images/a_tides_journey-AR.jpg",
+    "thumb":"/img/inspiration/images/a_tides_journey.jpg",
+    "alt":"A tides journey",
+    "title":"A tides journey"
+  },
+  {
+    "img":"/img/inspiration/images/autumn_sunset-AR.jpg",
+    "thumb":"/img/inspiration/images/autumn_sunset.jpg",
+    "alt":"Autumn sunset",
+    "title":"Autumn sunset"
+  },
+  {
+    "img":"/img/inspiration/images/bloom-AR.jpg",
+    "thumb":"/img/inspiration/images/bloom.jpg",
+    "alt":"Bloom",
+    "title":"Bloom"
+  },
+  {
+    "img":"/img/inspiration/images/colours_of_winter-AR.jpg",
+    "thumb":"/img/inspiration/images/colours_of_winter.jpg",
+    "alt":"Colours of winter",
+    "title":"Colours of winter"
+  },
+  {
+    "img":"/img/inspiration/images/dappled_light-AR.jpg",
+    "thumb":"/img/inspiration/images/dappled_light.jpg",
+    "alt":"Dappled light",
+    "title":"Dappled light"
+  },
+  {
     "img":"/img/inspiration/images/dry_landscape-AR.jpg",
+    "thumb":"/img/inspiration/images/dry_landscape-AR.jpg",
     "alt":"Dry landscape",
     "title":"Dry landscape"
   },
   {
     "img":"/img/inspiration/images/heart_of_the_flower-AR.jpg",
+    "thumb":"/img/inspiration/images/heart_of_the_flower.jpg",
     "alt":"Heart of the flower",
     "title":"Heart of the flower"
   },
   {
+    "img":"/img/inspiration/images/hollow_tree-AR.jpg",
+    "thumb":"/img/inspiration/images/hollow_tree.jpg",
+    "alt":"Hollow tree",
+    "title":"Hollow tree"
+  },
+  {
+    "img":"/img/inspiration/images/joy-AR.jpg",
+    "thumb":"/img/inspiration/images/joy.jpg",
+    "alt":"Joy",
+    "title":"Joy"
+  },
+  {
+    "img":"/img/inspiration/images/natures_art-AR.jpg",
+    "thumb":"/img/inspiration/images/natures_art.jpg",
+    "alt":"Natures art",
+    "title":"Natures art"
+  },
+  {
+    "img":"/img/inspiration/images/new_bloom-AR.jpg",
+    "thumb":"/img/inspiration/images/new_bloom.jpg",
+    "alt":"New bloom",
+    "title":"New bloom"
+  },
+  {
+    "img":"/img/inspiration/images/patterns_in_the_sand-AR.jpg",
+    "thumb":"/img/inspiration/images/patterns_in_the_sand.jpg",
+    "alt":"Patterns in the sand",
+    "title":"Patterns in the sand"
+  },
+  {
+    "img":"/img/inspiration/images/sand_dunes-AR.jpg",
+    "thumb":"/img/inspiration/images/sand_dunes.jpg",
+    "alt":"Sand dunes",
+    "title":"Sand dunes"
+  },
+  {
+    "img":"/img/inspiration/images/stand_tall-AR.jpg",
+    "thumb":"/img/inspiration/images/stand_tall.jpg",
+    "alt":"Stand tall",
+    "title":"Stand tall"
+  },
+  {
     "img":"/img/inspiration/images/veins-AR.jpg",
+    "thumb":"/img/inspiration/images/veins.jpg",
     "alt":"Veins",
     "title":"Veins"
   },
   {
     "img":"/img/inspiration/images/vivid-AR.jpg",
+    "thumb":"/img/inspiration/images/vivid.jpg",
     "alt":"Vivid",
     "title":"Vivid"
   },
   {
     "img":"/img/inspiration/images/wall_strata-AR.jpg",
+    "thumb":"/img/inspiration/images/wall_strata.jpg",
     "alt":"Wall strata",
     "title":"Wall strata"
   }
