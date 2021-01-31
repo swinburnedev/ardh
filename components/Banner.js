@@ -11,7 +11,7 @@ const Banner = ({images}) => {
   const showPrev = () => index !== 0;
 
   return (
-    <div className={styles.banner}>
+    <div className={`container ${styles.banner}`}>
       {showPrev() &&
         <button
           type="button"
@@ -29,8 +29,8 @@ const Banner = ({images}) => {
       <img
         className={styles.banner__image}
         src={img}
-        height="1080"
-        width="1920"
+        height="675"
+        width="1200"
         alt={alt}
       />
       {showNext() && 
