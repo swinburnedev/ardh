@@ -1,72 +1,251 @@
 [
   {
     "img":"/img/inspiration/materials/Agapanthus_Silver_Moon_Variagated_Lily_of_the_Nile-AR.jpg",
-    "alt":"Agapanthus",
-    "url":"/inspiration/quotes",
-    "title":"Agapanthus",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 1"
+    "alt":"Agapanthus Silver Moon",
+    "title":"Agapanthus Silver Moon",
+    "description":"Variegated Lily of the Nile"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/materials",
-    "title":"Material 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 2"
+    "img":"/img/inspiration/materials/Aluminium_Planter_Edge-AR.jpg",
+    "alt":"Aluminium Planter Edge",
+    "title":"Aluminium Planter Edge"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Material 3",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 3"
+    "img":"/img/inspiration/materials/Aluminium_Raling_Detail-AR.jpg",
+    "alt":"Aluminium Raling Detail",
+    "title":"Aluminium Raling Detail"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/materials",
-    "title":"Material 4",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 4"
+    "img":"/img/inspiration/materials/Bougainvillea_glabra_Paperflower-AR.jpg",
+    "alt":"Bougainvillea glabra",
+    "title":"Bougainvillea glabra",
+    "description":"Paperflower"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Material 5",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 5"
+    "img":"/img/inspiration/materials/Carex_Prairie_Fire_Sedge-AR.jpg",
+    "alt":"Carex Prairie Fire",
+    "title":"Carex Prairie Fire",
+    "description":"Sedge"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/images",
-    "title":"Material 6",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 6"
+    "img":"/img/inspiration/materials/Concrete_Block_Paving-AR.jpg",
+    "thumb":"/img/inspiration/materials/Concrete_Block_Paving.jpg",
+    "alt":"Concrete Block Paving",
+    "title":"Concrete Block Paving"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/images",
-    "title":"Material 7",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 7"
+    "img":"/img/inspiration/materials/Concrete_Paving_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Concrete_Paving_Detail.jpg",
+    "alt":"Concrete Paving Detail",
+    "title":"Concrete Paving Detail"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Material 8",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 8"
+    "img":"/img/inspiration/materials/Cornus_sericea_White_Gold_Dogwood-AR.jpg",
+    "thumb":"/img/inspiration/materials/Cornus_sericea_White_Gold_Dogwood.jpg",
+    "alt":"Cornus sericea White Gold",
+    "title":"Cornus sericea White Gold",
+    "description":"Dogwood"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/images",
-    "title":"Material 9",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 9"
+    "img":"/img/inspiration/materials/Corten_Screen_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Corten Screen Detail.JPG",
+    "alt":"Corten Screen Detail",
+    "title":"Corten Screen Detail"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/materials",
-    "title":"Material 10",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 10"
+    "img":"/img/inspiration/materials/Cycas_Revoluta_Sago_Palm-AR.jpg",
+    "thumb":"/img/inspiration/materials/Cycas_Revoluta_Sago_Palm.jpg",
+    "alt":"Cycas revoluta",
+    "title":"Cycas revoluta",
+    "description":"Sago Palm"
+  },
+  {
+    "img":"/img/inspiration/materials/Erysimum_Bowles|s_Mauve_Wallflower-AR.jpg",
+    "thumb":"/img/inspiration/materials/Erysimum_Bowles|s_Mauve_Wallflower.jpg",
+    "alt":"Erysimum Bowles's Mauve",
+    "title":"Erysimum Bowles's Mauve",
+    "description":"Wallflower"
+  },
+  {
+    "img":"/img/inspiration/materials/Facade_Leaf_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Facade_Leaf_Detail.jpg",
+    "alt":"Facade Leaf Detail",
+    "title":"Facade Leaf Detail"
+  },
+  {
+    "img":"/img/inspiration/materials/Granite_Cobble_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Granite_Cobble_Detail.jpg",
+    "alt":"Granite Cobble Detail",
+    "title":"Granite Cobble Detail"
+  },
+  {
+    "img":"/img/inspiration/materials/Granite_hexagonal_paving-AR.jpg",
+    "thumb":"/img/inspiration/materials/Granite_hexagonal_paving-AR.jpg",
+    "alt":"Granite hexagonal paving",
+    "title":"Granite hexagonal paving"
+  },
+  {
+    "img":"/img/inspiration/materials/Herringbone_Paving_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Herringbone_Paving_Detail.jpg",
+    "alt":"Herringbone Paving Detail",
+    "title":"Herringbone Paving Detail"
+  },
+  {
+    "img":"/img/inspiration/materials/Heuchera_Lime_Marmalade_Coral_Bells-AR.jpg",
+    "thumb":"/img/inspiration/materials/Heuchera_Lime_Marmalade_Coral_Bells.jpg",
+    "alt":"Heuchera Lime Marmalade",
+    "title":"Heuchera Lime Marmalade Coral Bells",
+    "description":"Coral Bells"
+  },
+  {
+    "img":"/img/inspiration/materials/Lavandula_stoechas_French_Lavander-AR.jpg",
+    "thumb":"/img/inspiration/materials/Lavandula_stoechas_French_Lavander.jpg",
+    "alt":"Lavandula stoechas",
+    "title":"Lavandula stoechas",
+    "description":"French Lavander"
+  },
+  {
+    "img":"/img/inspiration/materials/Limestone_wall_Crazy_cut-AR.jpg",
+    "thumb":"/img/inspiration/materials/Limestone_wall_Crazy_cut.jpg",
+    "alt":"Limestone wall",
+    "title":"Limestone wall",
+    "description":"Crazy cut"
+  },
+  {
+    "img":"/img/inspiration/materials/Limestone_wall_Random_cut-AR.jpg",
+    "thumb":"/img/inspiration/materials/Limestone_wall_Random_cut.jpg",
+    "alt":"Limestone wall",
+    "title":"Limestone wall",
+    "description":"Random cut"
+  },
+  {
+    "img":"/img/inspiration/materials/Limstone_walling_material-AR.jpg",
+    "thumb":"/img/inspiration/materials/Limstone_walling_material.jpg",
+    "alt":"Limestone wall material",
+    "title":"Limestone wall material"
+  },
+  {
+    "img":"/img/inspiration/materials/Muscari_armenicum_Blue_Grape_Hyacinth-AR.jpg",
+    "thumb":"/img/inspiration/materials/Muscari_armenicum_Blue_Grape_Hyacinth.jpg",
+    "alt":"Muscari armenicum",
+    "title":"Muscari armenicum",
+    "description":"Blue Grape Hyacinth"
+  },
+  {
+    "img":"/img/inspiration/materials/Nandina_Gulf_Streem_Heavenly_Bamboo-AR.jpg",
+    "thumb":"/img/inspiration/materials/Nandina_Gulf_Streem_Heavenly_Bamboo.jpg",
+    "alt":"Nandina Gulf Streem",
+    "title":"Nandina Gulf Streem",
+    "description":"Heavenly Bamboo"
+  },
+  {
+    "img":"/img/inspiration/materials/Nandina_Obsessed_Heavenly_Bamboo-AR.jpg",
+    "thumb":"/img/inspiration/materials/Nandina_Obsessed_Heavenly_Bamboo.jpg",
+    "alt":"Nandina Obsessed",
+    "title":"Nandina Obsessed",
+    "description":"Heavenly Bamboo"
+  },
+  {
+    "img":"/img/inspiration/materials/Olea_europaea_Olive-AR.jpg",
+    "thumb":"/img/inspiration/materials/Olea_europaea_Olive.jpg",
+    "alt":"Olea europaea",
+    "title":"Olea europaea",
+    "description":"Olive"
+  },
+  {
+    "img":"/img/inspiration/materials/Pebble_Edge_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Pebble_Edge_Detail.jpg",
+    "alt":"Pebble Edge Detail",
+    "title":"Pebble Edge Detail"
+  },
+  {
+    "img":"/img/inspiration/materials/Pheonix_dactylifera_date_palm-AR.jpg",
+    "thumb":"/img/inspiration/materials/Pheonix_dactylifera_date_palm.jpg",
+    "alt":"Pheonix dactylifera",
+    "title":"Pheonix dactylifera",
+    "description":"Date Palm"
+  },
+  {
+    "img":"/img/inspiration/materials/Pink_Sandstone_Walling-AR.jpg",
+    "thumb":"/img/inspiration/materials/Pink_Sandstone_Walling.jpg",
+    "alt":"Pink Sandstone Walling",
+    "title":"Pink Sandstone Walling"
+  },
+  {
+    "img":"/img/inspiration/materials/Pittisporum_Silver_Queen_Tawhiwhi-AR.jpg",
+    "thumb":"/img/inspiration/materials/Pittisporum_Silver_Queen_Tawhiwhi.jpg",
+    "alt":"Pittisporum Silver",
+    "title":"Pittisporum Silver",
+    "description":"Queen Tawhiwhi"
+  },
+  {
+    "img":"/img/inspiration/materials/Plumeria_Obtusa_Pagoda_Tree-AR.jpg",
+    "thumb":"/img/inspiration/materials/Plumeria_Obtusa_Pagoda_Tree.jpg",
+    "alt":"Plumeria Obtusa",
+    "title":"Plumeria Obtusa",
+    "description":"Pagoda Tree"
+  },
+  {
+    "img":"/img/inspiration/materials/Porphyry_Cobbles-AR.jpg",
+    "thumb":"/img/inspiration/materials/Porphyry_Cobbles.jpg",
+    "alt":"Porphyry Cobbles",
+    "title":"Porphyry Cobbles"
+  },
+  {
+    "img":"/img/inspiration/materials/Porphyry_Crazy_Paving-AR.jpg",
+    "thumb":"/img/inspiration/materials/Porphyry_Crazy_Paving.jpg",
+    "alt":"Porphyry Crazy Paving",
+    "title":"Porphyry Crazy Paving"
+  },
+  {
+    "img":"/img/inspiration/materials/Porphyry_Paving-AR.jpg",
+    "thumb":"/img/inspiration/materials/Porphyry_Paving.jpg",
+    "alt":"Porphyry Paving",
+    "title":"Porphyry Paving"
+  },
+  {
+    "img":"/img/inspiration/materials/Recessed_Cover_Detail-AR.jpg",
+    "thumb":"/img/inspiration/materials/Recessed_Cover_Detail.jpg",
+    "alt":"Recessed Cover Detail",
+    "title":"Recessed Cover Detail"
+  },
+  {
+    "img":"/img/inspiration/materials/Sedum_Lime_Zinger_Stonecrop-AR.jpg",
+    "thumb":"/img/inspiration/materials/Sedum_Lime_Zinger_Stonecrop.jpg",
+    "alt":"Sedum Lime Zinger",
+    "title":"Sedum Lime Zinger",
+    "description":"Stonecrop"
+  },
+  {
+    "img":"/img/inspiration/materials/Sorbaria_sorbifolia_Sem_False_Spiraea-AR.jpg",
+    "thumb":"/img/inspiration/materials/Sorbaria_sorbifolia_Sem_False_Spiraea.jpg",
+    "alt":"Sorbaria Sorbifolia Sem",
+    "title":"Sorbaria Sorbifolia Sem",
+    "description":"False Spiraea"
+  },
+  {
+    "img":"/img/inspiration/materials/Syringa_Vulgaris_Common_Lilac-AR.jpg",
+    "thumb":"/img/inspiration/materials/Syringa_Vulgaris_Common_Lilac.jpg",
+    "alt":"Syringa Vulgaris",
+    "title":"Syringa Vulgaris",
+    "description":"Common Lilac"
+  },
+  {
+    "img":"/img/inspiration/materials/Timber_and_Granite-AR.jpg",
+    "thumb":"/img/inspiration/materials/Timber_and_Granite.jpg",
+    "alt":"Timber and Granite",
+    "title":"Timber and Granite"
+  },
+  {
+    "img":"/img/inspiration/materials/White_Pebbles-AR.jpg",
+    "thumb":"/img/inspiration/materials/White_Pebbles.jpg",
+    "alt":"White Pebbles",
+    "title":"White Pebbles"
   }
 ]
+
+
+
+
+
+
