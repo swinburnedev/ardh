@@ -13,7 +13,7 @@ const Expertise = ({cards}) => {
       </Head>
       <main>
         <Header />
-        <Masonary cards={cards} count={3} />
+        <Masonary cards={cards} count={6} />
         <Footer />
       </main>
     </>
@@ -26,27 +26,45 @@ export async function getStaticProps() {
     props: {
       cards: [
         {
-          type: 'image',
-          img: '/img/expertise/garden_design_1.jpg',
-          alt: 'Garden Design',
+          type: 'quote-top',
+          img: '/img/expertise/concept_design.jpg',
+          alt: 'Concept Design',
+          quote: 'Concept Design',
           url: '/test'
         },
         {
-          type: 'image',
+          type: 'quote-bottom',
+          img: '/img/expertise/detail_design.jpg',
+          alt: 'Detail Design',
+          quote: 'Detail Design',
+          url: '/test'
+        },
+        {
+          type: 'quote-top',
+          img: '/img/expertise/garden_design.jpg',
+          alt: 'Garden Design',
+          quote: 'Garden Design',
+          url: '/test'
+        },
+        {
+          type: 'quote-bottom',
           img: '/img/expertise/landscape_architecture.jpg',
           alt: 'Landscape Architecture',
+          quote: 'Landscape Architecture',
           url: '/test'
         },
         {
-          type: 'image',
+          type: 'quote-top',
+          img: '/img/expertise/Landscape_project_management.jpg',
+          alt: 'Landscape project management',
+          quote: 'Landscape project management',
+          url: '/test'
+        },
+        {
+          type: 'quote-bottom',
           img: '/img/expertise/place_making_urbanism.jpg',
           alt: 'Place Making Urbanism',
-          url: '/test'
-        },
-        {
-          type: 'image',
-          img: '/img/expertise/technical_design.jpg',
-          alt: 'Technical Design',
+          quote: 'Place Making Urbanism',
           url: '/test'
         },
       ]

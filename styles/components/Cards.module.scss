@@ -29,6 +29,11 @@ $gutter: 5px;
   min-height: 100px;
   text-align: center;
 
+  &__only {
+    background-color: #939A9C;
+    // margin-bottom: $gutter;
+  }
+
   &__top {
     background-color: #939A9C;
     margin-bottom: $gutter;

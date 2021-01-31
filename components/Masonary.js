@@ -1,3 +1,4 @@
+import Quote from '../components/cards/Quote';
 import QuoteTop from '../components/cards/QuoteTop';
 import QuoteBottom from '../components/cards/QuoteBottom';
 import FiftyFiftyImage from '../components/cards/FiftyFiftyImage';
@@ -14,6 +15,8 @@ const Masonry = ({cards, count = 9}) => {
               return <FiftyFiftyImage key={i} {...card} />;
             case 'double-image':
               return <DoubleImage key={i} {...card} />;
+            case 'quote':
+                return <Quote key={i} {...card} />;
             case 'quote-top':
               return <QuoteTop key={i} {...card} />;
             case 'quote-bottom':
