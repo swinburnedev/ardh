@@ -29,43 +29,37 @@ export async function getStaticProps() {
           type: 'quote-top',
           img: '/img/expertise/concept_design.jpg',
           alt: 'Concept Design',
-          quote: 'Concept Design',
-          url: '/test'
+          quote: 'Concept Design'
         },
         {
           type: 'quote-bottom',
           img: '/img/expertise/detail_design.jpg',
           alt: 'Detail Design',
-          quote: 'Detail Design',
-          url: '/test'
+          quote: 'Detail Design'
         },
         {
           type: 'quote-top',
           img: '/img/expertise/garden_design.jpg',
           alt: 'Garden Design',
-          quote: 'Garden Design',
-          url: '/test'
+          quote: 'Garden Design'
         },
         {
           type: 'quote-bottom',
           img: '/img/expertise/landscape_architecture.jpg',
           alt: 'Landscape Architecture',
-          quote: 'Landscape Architecture',
-          url: '/test'
+          quote: 'Landscape Architecture'
         },
         {
           type: 'quote-top',
           img: '/img/expertise/Landscape_project_management.jpg',
           alt: 'Landscape project management',
-          quote: 'Landscape project management',
-          url: '/test'
+          quote: 'Landscape project management'
         },
         {
           type: 'quote-bottom',
           img: '/img/expertise/place_making_urbanism.jpg',
           alt: 'Place Making Urbanism',
-          quote: 'Place Making Urbanism',
-          url: '/test'
+          quote: 'Place Making Urbanism'
         },
       ]
     }
