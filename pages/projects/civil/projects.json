@@ -4,16 +4,13 @@
     "url": "/projects/civil/gated-community",
     "title": "Gated Community",
     "type": "image",
-    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
-    "alt" : "Gated Community Arrival Plaza",
+    "img" : "/img/project/civil/gated_community-mumbai-india-AR.jpg",
+    "thumb" : "/img/project/civil/gated_community-mumbai-india.jpg",
+    "alt" : "Gated Community",
     "images": [
       {
-        "img": "/img/project/civil/Gated_Community_Arrival_Plaza-India-AR.jpg",
-        "alt": "Gated Community Arrival Plaza India"
-      },
-      {
-        "img": "/img/project/civil/Gated_Community_Sensory_Gardens-India-AR.jpg",
-        "alt": "Gated Community Sensory Gardens India"
+        "img": "/img/project/civil/gated_community-mumbai-india-AR.jpg",
+        "alt": "Gated Community"
       }
     ],
     "location": "Nagpur, India",
@@ -24,16 +21,17 @@
     "url": "/projects/civil/mixed-use-development",
     "title": "Mixed Use Development",
     "type": "image",
-    "img" : "/img/project/civil/Mixed_use_development_1-Al_Khor-Qatar.jpg",
+    "img" : "/img/project/civil/Mixed_use_development_1-Al_Khor-Qatar-AR.jpg",
+    "thumb" : "/img/project/civil/Mixed_use_development_1-Al_Khor-Qatar.jpg",
     "alt" : "Mixed Use Development",
     "images": [
       {
         "img": "/img/project/civil/Mixed_use_development_1-Al_Khor-Qatar-AR.jpg",
-        "alt": "alt"
+        "alt": "Mixed Use Development"
       },
       {
         "img": "/img/project/civil/Mixed_use_development_2-Al_Khor-Qatar-AR.jpg",
-        "alt": "alt"
+        "alt": "Mixed Use Developmentt"
       }
     ],
     "location": "Al Khor, Qatar",
@@ -44,16 +42,17 @@
     "url": "/projects/civil/neighberhood-park",
     "title": "Neighberhood Park",
     "type": "image",
-    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
+    "img" : "/img/project/civil/Neighberhood_Park_1-UK-AR.jpg",
+    "thumb" : "/img/project/civil/Neighberhood_Park_1-UK.jpg",
     "alt" : "Neighberhood Park",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
+        "img": "/img/project/civil/Neighberhood_Park_1-UK-AR.jpg",
+        "alt": "Neighberhood Park"
       },
       {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img": "/img/project/civil/Neighberhood_Park_2 -UK-AR.jpg",
+        "alt": "Neighberhood Park"
       }
     ],
     "location": "London, UK",
@@ -64,16 +63,21 @@
     "url": "/projects/civil/village-green",
     "title": "Village Green",
     "type": "image",
-    "img" : "/img/project/civil/Gated_Community_Arrival_Plaza-India.jpg",
+    "img" : "/img/project/civil/Village_Green_3-Somerset-AR.jpg",
+    "thumb": "/img/project/civil/Village_Green_3-Somerset.jpg",
     "alt" : "Village Green",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
+        "img": "/img/project/civil/Village_Green_3-Somerset-AR.jpg",
+        "alt": "Village Green"
       },
       {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img": "/img/project/civil/Village_Green_2-Somerset-AR.jpg",
+        "alt": "Village Green"
+      },
+      {
+        "img": "/img/project/civil/Village_Green_1-Somerset-AR.jpg",
+        "alt": "Village Green"
       }
     ],
     "location": "Somerset, UK",
