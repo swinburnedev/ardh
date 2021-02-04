@@ -1,4 +1,5 @@
 import MasonaryLayout from '../../../layouts/MasonaryLayout';
+import leisure from './projects.json';
 
 const Residential = ({cards}) => {
   return (
@@ -9,30 +10,10 @@ const Residential = ({cards}) => {
 export async function getStaticProps() {
   return {
     props: {
-      cards: [
-        {
-          type: 'quote-bottom',
-          quote: 'If i had asked people what they wanted quote',
-          img: '/img/inspiration/basketball-court.jpg',
-          alt: '',
-          url: '/projects/leisure/golden-halo-garden'
-        },
-        {
-          type: 'image',
-          img: '/img/inspiration/decking-design.jpg',
-          alt: '',
-          url: '/projects/leisure/project-2'
-        },
-        {
-          type: 'quote-top',
-          quote: 'Beauty perishes in life, but is immortal in art',
-          img: '/img/inspiration/basketball-court.jpg',
-          alt: '',
-          url: '/projects/leisure/project-3'
-        }
-      ]
+      cards: [ ...leisure ]
     }
   }
 }
+
 
 export default Residential;

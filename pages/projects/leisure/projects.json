@@ -1,53 +1,61 @@
 [
   {
-    "id": "golden-halo-garden",
-    "slug": ["leisure", "golden-halo-garden"],
-    "title": "Golden Halo Garden",
+    "id": "luxury-resort",
+    "url": "/projects/leisure/luxury-resort",
+    "title": "Luxury Resort",
+    "type": "image",
+    "img" : "/img/project/leisure/Luxury_Resort_1-Qatar-AR.jpg",
+    "thumb" : "/img/project/leisure/Luxury_Resort_1-Qatar.jpg",
+    "alt" : "Luxury Resort",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
+        "img" : "/img/project/leisure/Luxury_Resort_1-Qatar-AR.jpg",
+        "alt": "Luxury Resort"
       },
       {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img" : "/img/project/leisure/Luxury_Resort_2-Qatar-AR.jpg",
+        "alt": "Luxury Resort"
+      },
+      {
+        "img" : "/img/project/leisure/Luxury_Resort_3-Qatar-AR.jpg",
+        "alt": "Luxury Resort"
       }
     ],
-    "location": "Dubai - United Arab Emirates",
+    "location": "Doha, Qatar",
     "map": "/img/location/dubai.png"
   },
   {
-    "id": "leisure-2",
-    "slug": ["leisure", "leisure-2"],
-    "title": "Leisure 2",
+    "id": "sports-complex-dh",
+    "url": "/projects/leisure/sports-complex-dh",
+    "title": "Sports Complex",
+    "type": "image",
+    "img" : "/img/project/leisure/Sports_Complex-Doha-Qatar-AR.jpg",
+    "thumb" : "/img/project/leisure/Sports_Complex-Doha-Qatar.jpg",
+    "alt" : "Sports Complex",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
-      },
-      {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img" : "/img/project/leisure/Sports_Complex-Doha-Qatar-AR.jpg",
+        "alt": "Sports Complex"
       }
     ],
-    "location": "Birmingham",
+    "location": "Doha, Qatar",
     "map": "/img/location/dubai.png"
   },
   {
-    "id": "leisure-3",
-    "slug": ["leisure", "leisure-3"],
-    "title": "Leisure 3",
+    "id": "sports-complex-ms",
+    "url": "/projects/leisure/sports-complex-ms",
+    "title": "Sports Complex",
+    "type": "image",
+    "img" : "/img/project/leisure/Sports_Complex-Muscat-Oman-AR.jpg",
+    "thumb" : "/img/project/leisure/Sports_Complex-Muscat-Oman.jpg",
+    "alt" : "Sports Complex",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
-      },
-      {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img" : "/img/project/leisure/Sports_Complex-Muscat-Oman-AR.jpg",
+        "alt": "Sports Complex"
       }
     ],
-    "location": "Birmingham",
+    "location": "Muscat, Oman",
     "map": "/img/location/dubai.png"
   }
 ]
