@@ -1,53 +1,137 @@
 [
   {
-    "id": "golden-halo-garden",
-    "slug": ["residential", "golden-halo-garden"],
-    "title": "Golden Halo Garden",
+    "id": "luxury-villa",
+    "url": "/projects/residential/luxury-villa",
+    "title": "Luxury Villa",
+    "type": "image",
+    "img" : "/img/project/residential/Luxury_Villa_3-Qatar-AR.jpg",
+    "thumb" : "/img/project/residential/Luxury_Villa_3-Qatar.jpg",
+    "alt" : "Luxury Villa",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
+        "img" : "/img/project/residential/Luxury_Villa_1-Qatar-AR.jpg",
+        "alt": "Luxury Villa"
       },
       {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img" : "/img/project/residential/Luxury_Villa_2-Qatar-AR.jpg",
+        "alt": "Luxury Villa"
+      },
+      {
+        "img" : "/img/project/residential/Luxury_Villa_3-Qatar-AR.jpg",
+        "alt": "Luxury Villa"
       }
     ],
-    "location": "Dubai - United Arab Emirates",
+    "location": "Doha, Qatar",
     "map": "/img/location/dubai.png"
   },
   {
-    "id": "residential-2",
-    "slug": ["residential", "project-2"],
-    "title": "Residential 2",
+    "id": "private-garden-leeds",
+    "url": "/projects/residential/private-garden-leeds",
+    "title": "Private Garden",
+    "type": "image",
+    "img" : "/img/project/residential/Private_Garden_1-Leeds-AR.jpg",
+    "thumb" : "/img/project/residential/Private_Garden_1-Leeds.jpg",
+    "alt" : "Private Garden",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
-      },
-      {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img" : "/img/project/residential/Private_Garden_1-Leeds-AR.jpg",
+        "alt": "Private Garden"
       }
     ],
-    "location": "Birmingham",
+    "location": "Leeds, UK",
     "map": "/img/location/dubai.png"
   },
   {
-    "id": "residential-3",
-    "slug": ["residential", "project-3"],
-    "title": "Residential 3",
+    "id": "private-garden-loughborough",
+    "url": "/projects/residential/private-garden-loughborough",
+    "title": "Private Garden",
+    "type": "image",
+    "img" : "/img/project/residential/Private_Garden_1-AR.jpg",
+    "thumb" : "/img/project/residential/Private_Garden_1.jpg",
+    "alt" : "Private Garden Loughborough",
     "images": [
       {
-        "img": "/img/project/Gated Community Arrival Plaza India.jpg",
-        "alt": "alt"
-      },
-      {
-        "img": "/img/inspiration/decking-design.jpg",
-        "alt": "alt"
+        "img" : "/img/project/residential/Private_Garden_1-AR.jpg",
+        "alt": "Private Garden Loughborough"
       }
     ],
-    "location": "Birmingham",
+    "location": "Loughborough, UK",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "private-villa",
+    "url": "/projects/residential/private-villa",
+    "title": "Private Villa",
+    "type": "image",
+    "img" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE.jpg",
+    "thumb" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE.jpg",
+    "alt" : "Private Villa",
+    "images": [
+      {
+        "img" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE.jpg",
+        "alt": "Private Villa"
+      },
+      {
+        "img" : "/img/project/residential/VIP_Villa_2-Abu-Dhabi-UAE.jpg",
+        "alt": "Private Villa"
+      }
+    ],
+    "location": "Abu Dhabi, UAE",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "private-villa-dubai",
+    "url": "/projects/residential/private-villa-dubai",
+    "title": "Private Villa",
+    "type": "image",
+    "img" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
+    "thumb" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
+    "alt" : "Private Villa Dubai",
+    "images": [
+      {
+        "img" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
+        "alt": "Private Villa Dubai"
+      },
+      {
+        "img" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
+        "alt": "Private Villa"
+      }
+    ],
+    "location": "Dubai, UAE",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "residential-development",
+    "url": "/projects/residential/residential-development",
+    "title": "Residential Development",
+    "type": "image",
+    "img" : "/img/project/residential/Residential_Development-AR.jpg",
+    "thumb" : "/img/project/residential/Residential_Development.jpg",
+    "alt" : "Residential Development",
+    "images": [
+      {
+        "img" : "/img/project/residential/Residential_Development-AR.jpg",
+        "alt": "Residential Development"
+      }
+    ],
+    "location": "East Midlands, UK",
+    "map": "/img/location/dubai.png"
+  },
+  {
+    "id": "residential-compound",
+    "url": "/projects/residential/residential-compound",
+    "title": "Residential Compound",
+    "type": "image",
+    "img" : "/img/project/residential/VIP_Residential_Compound-Qatar-AR.jpg",
+    "thumb" : "/img/project/residential/VIP_Residential_Compound-Qatar.jpg",
+    "alt" : "Residential Compound",
+    "images": [
+      {
+        "img" : "/img/project/residential/VIP_Residential_Compound-Qatar-AR.jpg",
+        "alt": "Residential Compound"
+      }
+    ],
+    "location": "Doha, Qatar",
     "map": "/img/location/dubai.png"
   }
 ]
