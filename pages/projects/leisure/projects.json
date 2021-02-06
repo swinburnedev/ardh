@@ -22,7 +22,7 @@
       }
     ],
     "location": "Doha, Qatar",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/Qatar.png"
   },
   {
     "id": "sports-complex-dh",
@@ -39,7 +39,7 @@
       }
     ],
     "location": "Doha, Qatar",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/Qatar.png"
   },
   {
     "id": "sports-complex-ms",
@@ -56,6 +56,6 @@
       }
     ],
     "location": "Muscat, Oman",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/OMAN.png"
   }
 ]

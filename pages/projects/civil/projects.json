@@ -14,7 +14,7 @@
       }
     ],
     "location": "Nagpur, India",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/INDIA.png"
   },
   {
     "id": "mixed-use-development",
@@ -35,7 +35,7 @@
       }
     ],
     "location": "Al Khor, Qatar",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/Qatar.png"
   },
   {
     "id": "neighberhood-park",
@@ -56,7 +56,7 @@
       }
     ],
     "location": "London, UK",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/UK.png"
   },
   {
     "id": "village-green",
@@ -81,6 +81,6 @@
       }
     ],
     "location": "Somerset, UK",
-    "map": "/img/location/dubai.png"
+    "map": "/img/location/UK.png"
   }
 ]

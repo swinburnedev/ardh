@@ -14,8 +14,8 @@ const ProjectLocation = ({location, map, title}) => {
       <div className={styles.project__map}>
         {map && <Image
           src={map}
-          height={570}
-          width={1177}
+          height={340}
+          width={700}
           alt={location}
         />}
       </div>
