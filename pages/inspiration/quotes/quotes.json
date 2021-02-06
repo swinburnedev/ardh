@@ -1,72 +1,62 @@
 [
   {
-    "img":"/img/inspiration/quotes/Post 11.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Quote 1",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 1"
+    "type": "quote",
+    "quote": "Landscape Architects Value your role, make a Positive difference & LEAD THE WAY. ENGAGE, COMMUNICATE & Have fun creating places",
+    "author": "ARDH"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/materials",
-    "title":"Material 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 2"
+    "type": "quote",
+    "quote": "Landscape Architects are often natural leaders, able to communicate with many professions and leading multidisciplinary projects",
+    "author": "IFLA Europe"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Material 3",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 3"
+    "type": "quote",
+    "quote": "Don’t over-complicate DESIGN, often simple is best",
+    "author": "ARDH"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/materials",
-    "title":"Material 4",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 4"
+    "type": "quote",
+    "quote": "Every great design begins with an even better story.",
+    "author": "Lorinda Mamo"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Material 5",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 5"
+    "type": "quote",
+    "quote": "Creativity is intelligence having fun.",
+    "author": "Albert Einstein"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/images",
-    "title":"Material 6",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 6"
+    "type": "quote",
+    "quote": "You can’t use up creativity. The more you use the MORE you have.",
+    "author": "Maya Angelou"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/images",
-    "title":"Material 7",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 7"
+    "type": "quote",
+    "quote": "A collection of plants is not a landscape; any more than a list of choice words is a poem. The merit is in the design, not the material it is expressed in and, the best designs, like the best poems, make ordinary material significant by its arrangement.",
+    "author": "Nan Fairbrother"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/quotes",
-    "title":"Material 8",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 8"
+    "type": "quote",
+    "quote": "If you think good design is expensive, you should look at the cost of bad design.",
+    "author": "Ralf Speth"
   },
   {
-    "img":"/img/inspiration/basketball-court.jpg",
-    "alt":"",
-    "url":"/inspiration/images",
-    "title":"Material 9",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 9"
+    "type": "quote",
+    "quote": "The goal of a designer is to listen, observe, understand, sympathise, empathise, synthesise, & glean insights that enable him or her to ‘make the invisible visible",
+    "author": "Hillman Curtis"
   },
   {
-    "img":"/img/inspiration/decking-design.jpg",
-    "alt":"",
-    "url":"/inspiration/materials",
-    "title":"Material 10",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit 10"
+    "type": "quote",
+    "quote": "If I had asked people what they wanted, they would have said faster horses.",
+    "author": "Henry Ford"
+  },
+  {
+    "type": "quote",
+    "quote": "CREATIVITY TAKES COURAGE",
+    "author": "Henri Matisse"
+  },
+  {
+    "type": "quote",
+    "quote": "Leave it better than you found it.",
+    "author": "Bruce A. Nordstrom"
   }
 ]

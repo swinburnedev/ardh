@@ -1,9 +1,9 @@
-import Inspiration from '../../../layouts/Inspiration';
+import MasonaryLayout from '../../../layouts/MasonaryLayout';
 import quotes from './quotes.json';
 
 const Quotes = ({title, content}) => {
   return (
-    <Inspiration title={title} content={content} data={quotes} maxCards={9} />
+    <MasonaryLayout title={title} content={content} cards={quotes} maxCards={9} />
   )
 };
 

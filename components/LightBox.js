@@ -1,4 +1,4 @@
-
+import { useEffect } from 'react';
 import Image from 'next/image';
 import styles from '../styles/components/LightBox.module.scss';
 
@@ -8,7 +8,24 @@ const LightBox = ({active, setActive, cards, index, setIndex}) => {
   const prev = () => setIndex(--index);
   const isFirst = () => parseInt(index) === 0;
   const isLast = () => index === cards.length - 1;
+  const handleKeyDown = e => {
+    if (e.code === 'ArrowRight') {
+      !isLast() && next();
+    }
+    if (e.code === 'ArrowLeft') {
+      !isFirst() && prev();
+    }
+    if (e.code === 'Escape') {
+      closeLightBox();
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
 
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  })
   const current = cards[index];
   const { title, description, img, alt } = current || {};
   

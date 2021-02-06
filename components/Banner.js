@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import styles from '../styles/components/Banner.module.scss';
 
@@ -9,6 +9,21 @@ const Banner = ({images}) => {
   const prevImage = () => setIndex(index - 1);
   const showNext = () => index !== images.length - 1;
   const showPrev = () => index !== 0;
+  const handleKeyDown = e => {
+    if (e.code === 'ArrowRight') {
+      showNext() && nextImage();
+    }
+    if (e.code === 'ArrowLeft') {
+      showPrev() && prevImage();
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  })
 
   return (
     <div className={`container ${styles.banner}`}>
@@ -25,7 +40,6 @@ const Banner = ({images}) => {
             alt="Previous"
           />
         </button>}
-        {/* TODO confirm image sizes and update */}
       <img
         className={styles.banner__image}
         src={img}
