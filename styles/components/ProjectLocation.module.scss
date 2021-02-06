@@ -2,15 +2,15 @@
   background-color: #8b9d9d;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 2rem 1rem;
   width: 100%;
 
   &__details {
-    padding: 8% 0 8% 6%;
+    padding: 6% 0 6% 6%;
   }
 
   &__map {
-    display: flex;
+    padding: 0 2rem;
   }
 
   h1, h2, p {
@@ -18,7 +18,7 @@
   }
 
   h1, h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0 0 3rem 0;
     text-transform: initial;
   }
@@ -34,12 +34,12 @@
     flex-direction: row;
 
     &__details {
-      width: 45%;
+      width: 50%;
     }
 
     &__map {
-      position: relative;
-      width: 55%;
+      padding: 2rem 0;
+      width: 50%;
     }
   }
 }

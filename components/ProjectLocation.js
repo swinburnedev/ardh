@@ -13,10 +13,12 @@ const ProjectLocation = ({location, map, title}) => {
       </div>
       <div className={styles.project__map}>
         {map && <Image
+          className={styles.project__map__img}
           src={map}
           height={340}
           width={700}
           alt={location}
+          layout="intrinsic"
         />}
       </div>
     </div>
