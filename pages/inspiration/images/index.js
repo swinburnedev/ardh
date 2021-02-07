@@ -3,7 +3,7 @@ import images from './images.json';
 
 const Images = ({title, content}) => {
   return (
-    <Inspiration title={title} content={content} data={images} maxCards={15} />
+    <Inspiration title={title} content={content} data={images} maxCards={9} />
   )
 };
 
