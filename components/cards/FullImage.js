@@ -6,8 +6,6 @@ const FullImage = ({img, thumb, alt, url}) => (
   <div className={styles.card}>
     <Wrappedink url={url}>
       <div className={`${styles.image}`}>
-        {/* TODO add layout="fill" / image variant */}
-        {/*  ${styles.image__desktop} */}
         <Image
           height="400"
           width="400"
@@ -15,14 +13,6 @@ const FullImage = ({img, thumb, alt, url}) => (
           alt={alt}
         />
       </div>
-      {/* <div className={`${styles.image} ${styles.image__mobile}`}>
-        <Image
-          src={img}
-          height="468"
-          width="472"
-          alt={alt}
-        />
-      </div> */}
     </Wrappedink>
   </div>
 )

@@ -21,7 +21,6 @@ const Expertise = ({cards}) => {
 };
 
 export async function getStaticProps() {
-  // const imageCards = getImageCards(2, images);
   return {
     props: {
       cards: [

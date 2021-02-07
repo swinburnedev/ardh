@@ -4,6 +4,13 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import TabbedIcons from '../components/TabbedIcons';
 import Masonary from '../components/Masonary';
+import { getImageCards, getQuoteCards, getQuoteOnly } from '../lib/util';
+import images from './inspiration/images/images.json';
+import quotes from './inspiration/quotes/quotes.json';
+import materials from './inspiration/materials/materials.json';
+import civil from './projects/civil/projects.json';
+import leisure from './projects/leisure/projects.json';
+import residential from './projects/residential/projects.json';
 
 const Home = ({cards, hero, tabs}) => {
   return (
@@ -24,6 +31,12 @@ const Home = ({cards, hero, tabs}) => {
 };
 
 export async function getStaticProps() {
+  const quoteCards = getQuoteOnly(1, quotes, '/inspiration/quotes');
+  const imageCards = getImageCards(1, images, '/inspiration/images');
+  const materialCards = getQuoteCards(1, materials, '/inspiration/materials');
+  const civilCards = getImageCards(1, civil);
+  const leisureCards = getImageCards(1, leisure);
+  const residentialCards = getImageCards(1, residential);
   return {
     props: {
       hero: [
@@ -32,14 +45,14 @@ export async function getStaticProps() {
           alt: 'Civil public garden',
           title: 'Civil / Public Realm',
           subtitle: 'Info',
-          url: ''
+          url: '/projects/civil'
         },
         {
           img: '/img/banner/private_garden_leeds.jpg',
           alt: 'Civil public garden',
           title: 'Residential',
           subtitle: 'Info',
-          url: ''
+          url: '/projects/residential'
         }
       ],
       tabs: [
@@ -69,47 +82,12 @@ export async function getStaticProps() {
         }
       ],
       cards: [
-        {
-          type: 'double-image',
-          imgTop: '/img/inspiration/paint.png',
-          altTop: 'Alt top',
-          imgBottom: '/img/inspiration/basketball-court.jpg',
-          altBottom: 'Alt top',
-          url: '/projects/civil/golden-halo-garden'
-        },
-        {
-          type: 'quote-bottom',
-          quote: 'If i had asked people what they wanted quote',
-          img: '/img/inspiration/basketball-court.jpg',
-          alt: '',
-          url: '/test'
-        },
-        {
-          type: 'image',
-          img: '/img/inspiration/decking-design.jpg',
-          alt: '',
-          url: '/test'
-        },
-        {
-          type: 'quote-bottom',
-          quote: 'If i had asked people what they wanted quote',
-          img: '/img/inspiration/basketball-court.jpg',
-          alt: '',
-          url: '/test'
-        },
-        {
-          type: 'image',
-          img: '/img/inspiration/decking-design.jpg',
-          alt: '',
-          url: '/test'
-        },
-        {
-          type: 'quote-top',
-          quote: 'Beauty perishes in life, but is immortal in art',
-          img: '/img/inspiration/basketball-court.jpg',
-          alt: '',
-          url: '/test'
-        }
+        ...civilCards,
+        ...quoteCards,
+        ...leisureCards,
+        ...materialCards,
+        ...imageCards,
+        ...residentialCards
       ]
     }
   }

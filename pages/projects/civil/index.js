@@ -3,7 +3,7 @@ import civil from './projects.json';
 
 const Civil = ({cards}) => {
   return (
-    <MasonaryLayout title="Civil | Projects | ARDH" cards={cards} />
+    <MasonaryLayout title="Civil | Projects | ARDH" cards={cards} maxCards={3} />
   )
 };
 

@@ -5,7 +5,7 @@ import Wrappedink from './WrappedLink';
 const QuoteTop = ({quote, img, alt, url}) => (
   <div className={styles.card}>
     <div className={`${styles.quote} ${styles.quote__top}`}>
-      <Wrappedink url={url}>
+      <Wrappedink url={url} className="center">
         <p className={styles.quote__text}>{ quote }</p>
       </Wrappedink>
     </div>

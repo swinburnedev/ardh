@@ -13,7 +13,7 @@ const QuoteBottom = ({quote, img, alt, url}) => (
       />
     </Wrappedink>
     <div className={`${styles.quote} ${styles.quote__bottom}`}>
-      <Wrappedink url={url}>
+      <Wrappedink url={url} className="center">
         <p className={styles.quote__text}>{ quote }</p>
       </Wrappedink>
     </div>

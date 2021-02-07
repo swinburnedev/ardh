@@ -15,7 +15,6 @@ $gutter: 5px;
 }
 
 .image__full {
-  // height: auto;
   width: 100vw;
   max-height: 468px;
   max-width: 472px;
@@ -31,7 +30,6 @@ $gutter: 5px;
 
   &__only {
     background-color: #939A9C;
-    // margin-bottom: $gutter;
   }
 
   &__top {
@@ -53,13 +51,6 @@ $gutter: 5px;
   }
 }
 
-.image__mobile {
-  display: flex;
-}
-.image__desktop {
-  display: none;
-}
-
 @media screen and (min-width: 1024px) {
   .quote {
     padding: 1rem 2rem;
@@ -67,12 +58,6 @@ $gutter: 5px;
     &__text {
       font-size: 1.3rem;
     }
-  }
-  .image__mobile {
-    display: none;
-  }
-  .image__desktop {
-    display: block;
   }
 }
 

@@ -3,7 +3,7 @@ import residential from './projects.json';
 
 const Residential = ({cards}) => {
   return (
-    <MasonaryLayout title="Residential | Projects | ARDH" cards={cards} />
+    <MasonaryLayout title="Residential | Projects | ARDH" cards={cards} maxCards={6} />
   )
 };
 

@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Masonary from '../components/Masonary';
 
-const MasonaryLayout = ({title, cards}) => {
+const MasonaryLayout = ({title, cards, maxCards = 6}) => {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ const MasonaryLayout = ({title, cards}) => {
       </Head>
       <main>
         <Header />
-        <Masonary cards={cards} />
+        <Masonary cards={cards} count={maxCards} />
         <Footer />
       </main>
     </>

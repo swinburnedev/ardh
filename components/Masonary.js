@@ -4,12 +4,23 @@ import QuoteBottom from '../components/cards/QuoteBottom';
 import FiftyFiftyImage from '../components/cards/FiftyFiftyImage';
 import FullImage from '../components/cards/FullImage';
 import DoubleImage from '../components/cards/DoubleImage';
+import { getRandomIndexs } from '../lib/util';
 
-const Masonry = ({cards, count = 9}) => {
-  cards = cards.slice(0, count);
+const Masonry = ({cards, count = 6}) => {
+  let indexes = [...Array(count).keys()];
+  if (cards.length !== count) {
+    let cardCount = cards.length;
+    if (cards.length > count) {
+      cardCount = count;
+    }
+    indexes = getRandomIndexs(cardCount, cards.length);
+  }
+
   return (
     <div className="container">
-      { cards && cards.map((card, i) => {
+      { indexes.map(i => {
+          console.log('i:', indexes);
+          const card = cards[i];
           switch (card.type) {
             case 'fify-image':
               return <FiftyFiftyImage key={i} {...card} />;
