@@ -18,8 +18,10 @@ const Banner = ({images}) => {
     }
   }
   useEffect(() => {
+    setIndex(0);
+  }, [images]);
+  useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
-
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
