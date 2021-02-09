@@ -11,7 +11,7 @@
 
   a {
     color: #1b282f;
-    font-size: 2rem;
+    font-size: 1.25rem;
 
     &:hover {
       text-decoration: underline;
@@ -23,5 +23,11 @@
     font-size: 0.9rem;
     margin: 0 0 0.5rem 0;
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 1280px) {
+    a {
+      font-size: 2rem;
+    }
   }
 }

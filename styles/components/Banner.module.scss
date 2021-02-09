@@ -3,6 +3,7 @@
   position: relative;
 
   &__image {
+    height: auto;
     max-width: 100%;
     width: 100%;
   }
@@ -11,12 +12,13 @@
 .next, .prev {
   background-color: white;
   border: none;
+  cursor: pointer;
   display: block;
-  height: 34px;
-  padding: 4px 10px;
+  height: 44px;
+  padding: 10px;
   position: absolute;
   top: calc(50% - 12px);
-  width: 34px;
+  width: 44px;
   z-index: 1;
 }
 
