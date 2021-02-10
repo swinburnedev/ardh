@@ -19,7 +19,7 @@
   }
 
   h1, h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin: 0 0 3rem 0;
     text-transform: initial;
   }
@@ -37,6 +37,10 @@
   .project {
     flex-direction: row;
     padding: 2rem 1rem;
+
+    h1, h2 {
+      font-size: 1.8rem;
+    }
 
     &__details {
       padding: 6% 0 6% 6%;
