@@ -92,17 +92,13 @@
     "url": "/projects/residential/private-villa-dubai",
     "title": "Private Villa",
     "type": "image",
-    "img" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
+    "img" : "/img/project/residential/VIP_Villa-Dubai-UAE-AR.jpg",
     "thumb" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
     "alt" : "Private Villa Dubai",
     "images": [
       {
-        "img" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
+        "img" : "/img/project/residential/VIP_Villa-Dubai-UAE-AR.jpg",
         "alt": "Private Villa Dubai"
-      },
-      {
-        "img" : "/img/project/residential/VIP_Villa-Dubai-UAE.jpg",
-        "alt": "Private Villa"
       }
     ],
     "location": "Dubai, UAE",
