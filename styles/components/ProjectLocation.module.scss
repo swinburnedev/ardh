@@ -2,15 +2,16 @@
   background-color: #8b9d9d;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  padding: 1rem;
   width: 100%;
 
   &__details {
-    padding: 6% 0 6% 6%;
+    padding: 3%;
   }
 
   &__map {
     padding: 0 2rem;
+    margin-bottom: 1rem;
   }
 
   h1, h2, p {
@@ -22,6 +23,9 @@
     margin: 0 0 3rem 0;
     text-transform: initial;
   }
+  h2:last-child {
+    margin-bottom: 1rem;
+  }
   p {
     letter-spacing: 3px;
     margin: 0.5rem 0;
@@ -32,8 +36,10 @@
 @media screen and (min-width: 750px) {
   .project {
     flex-direction: row;
+    padding: 2rem 1rem;
 
     &__details {
+      padding: 6% 0 6% 6%;
       width: 50%;
     }
 
