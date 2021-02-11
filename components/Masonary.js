@@ -19,7 +19,6 @@ const Masonry = ({cards, count = 6}) => {
   return (
     <div className="container">
       { indexes.map(i => {
-          console.log('i:', indexes);
           const card = cards[i];
           switch (card.type) {
             case 'fify-image':
