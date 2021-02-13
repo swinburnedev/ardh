@@ -33,7 +33,7 @@ const Home = ({cards, hero, tabs}) => {
 export async function getStaticProps() {
   const quoteCards = getQuoteOnly(1, quotes, '/inspiration/quotes');
   const imageCards = getImageCards(1, images, '/inspiration/images');
-  const materialCards = getQuoteCards(1, materials, '/inspiration/materials');
+  const materialCards = getImageCards(1, materials, '/inspiration/materials');
   const civilCards = getImageCards(1, civil);
   const leisureCards = getImageCards(1, leisure);
   const residentialCards = getImageCards(1, residential);

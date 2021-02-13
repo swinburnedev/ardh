@@ -10,9 +10,8 @@ const Footer = () => (
     Rawa House<br />
     Whitwick Road, Coalville<br />
     United Kingdom<br />
-    LE67 3FA<br />
-    +44 (0)116 222 222</p>
-    <p>For new business enquiries please email Ayad on <a className={styles.footer__link} href="mailto:info@ardh.co.uk">info@ardh.co.uk</a></p>
+    LE67 3FA</p>
+    <p>For new business enquiries please email <a className={styles.footer__link} href="mailto:info@ardh.co.uk">info@ardh.co.uk</a></p>
     <ul className={styles.social}>
       <li className={styles.social__item}>
         <a
@@ -33,7 +32,7 @@ const Footer = () => (
         </a>
       </li>
     </ul>
-    <p>&copy; 2020 ARDH Ltd</p>
+    <p>&copy; 2021 ARDH Ltd</p>
   </footer>
 )
 

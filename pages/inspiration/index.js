@@ -26,7 +26,7 @@ const Inspiration = ({cards}) => {
 export async function getStaticProps() {
   const imageCards = getImageCards(2, images, '/inspiration/images');
   const quoteCards = getQuoteOnly(2, quotes, '/inspiration/quotes');
-  const materialCards = getQuoteCards(2, materials, '/inspiration/materials');
+  const materialCards = getImageCards(2, materials, '/inspiration/materials');
   return {
     props: {
       cards: [

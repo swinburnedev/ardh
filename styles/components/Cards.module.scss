@@ -8,16 +8,16 @@ $gutter: 5px;
 
 .image {
   display: flex;
+  filter: grayscale(100%);
+  cursor: pointer;
+
+  &:hover {
+    filter: none;
+  }
 }
 
 .image__fifty {
   margin-bottom: 5px;
-}
-
-.image__full {
-  width: 100vw;
-  max-height: 468px;
-  max-width: 472px;
 }
 
 .quote {
@@ -25,16 +25,28 @@ $gutter: 5px;
   align-items: center;
   color: #ffffff;
   flex: 1; 
-  min-height: 100px;
+  min-height: 50px;
   text-align: center;
 
   &__only {
+    min-height: 300px;
+  }
+
+  &__light {
     background-color: #939A9C;
+  }
+
+  &__dark {
+    background-color: #687677;
   }
 
   &__top {
     background-color: #939A9C;
     margin-bottom: $gutter;
+
+    &__text {
+      font-size: 0.7rem;
+    }
   }
 
   &__bottom {
@@ -58,11 +70,24 @@ $gutter: 5px;
     &__text {
       font-size: 1.3rem;
     }
+
+    &__top {
+      padding: 0;
+
+      &__text {
+        font-size: 0.7rem;
+        margin: 0;
+      }
+    }
   }
 }
 
 @media screen and (min-width: 1200px) {
   .quote {
     padding: 1rem 1.75rem;
+
+    &__top {
+      padding: 0;
+    }
   }
 }

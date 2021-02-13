@@ -43,6 +43,13 @@ const Masonry = ({cards, count = 6}) => {
         grid-gap: 5px;
         padding: 5px;
 
+        .quote:nth-child(odd) {
+          background: red;
+        }
+        
+        .quote:nth-child(even) {
+          background: blue;
+        }
         @media screen and (min-width: 768px) {
           grid-template-columns: repeat(2, 1fr);
         }

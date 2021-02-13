@@ -71,16 +71,16 @@
     "url": "/projects/residential/private-villa",
     "title": "Private Villa",
     "type": "image",
-    "img" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE.jpg",
+    "img" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE-AR.jpg",
     "thumb" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE.jpg",
     "alt" : "Private Villa",
     "images": [
       {
-        "img" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE.jpg",
+        "img" : "/img/project/residential/Private_Villa_1-Abu-Dhabi-UAE-AR.jpg",
         "alt": "Private Villa"
       },
       {
-        "img" : "/img/project/residential/VIP_Villa_2-Abu-Dhabi-UAE.jpg",
+        "img" : "/img/project/residential/VIP_Villa_2-Abu-Dhabi-UAE-AR.jpg",
         "alt": "Private Villa"
       }
     ],

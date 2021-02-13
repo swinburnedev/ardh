@@ -26,15 +26,15 @@ export async function getStaticProps() {
       cards: [
         {
           type: 'quote-top',
-          img: '/img/expertise/concept_design.jpg',
-          alt: 'Concept Design',
-          quote: 'Concept Design'
+          img: '/img/expertise/landscape_architecture.jpg',
+          alt: 'Landscape Architecture',
+          quote: 'Landscape Architecture'
         },
         {
-          type: 'quote-bottom',
-          img: '/img/expertise/detail_design.jpg',
-          alt: 'Detail Design',
-          quote: 'Detail Design'
+          type: 'quote-top',
+          img: '/img/expertise/place_making_urbanism.jpg',
+          alt: 'Place Making Urbanism',
+          quote: 'Place Making Urbanism'
         },
         {
           type: 'quote-top',
@@ -43,23 +43,23 @@ export async function getStaticProps() {
           quote: 'Garden Design'
         },
         {
-          type: 'quote-bottom',
-          img: '/img/expertise/landscape_architecture.jpg',
-          alt: 'Landscape Architecture',
-          quote: 'Landscape Architecture'
+          type: 'quote-top',
+          img: '/img/expertise/concept_design.jpg',
+          alt: 'Concept Design',
+          quote: 'Concept Design'
+        },
+        {
+          type: 'quote-top',
+          img: '/img/expertise/detail_design.jpg',
+          alt: 'Detail Design',
+          quote: 'Detail Design'
         },
         {
           type: 'quote-top',
           img: '/img/expertise/Landscape_project_management.jpg',
           alt: 'Landscape project management',
           quote: 'Landscape project management'
-        },
-        {
-          type: 'quote-bottom',
-          img: '/img/expertise/place_making_urbanism.jpg',
-          alt: 'Place Making Urbanism',
-          quote: 'Place Making Urbanism'
-        },
+        }
       ]
     }
   }
