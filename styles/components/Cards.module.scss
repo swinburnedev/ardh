@@ -22,7 +22,9 @@ $gutter: 5px;
 
 .quote {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #ffffff;
   flex: 1; 
   min-height: 50px;
@@ -30,14 +32,7 @@ $gutter: 5px;
 
   &__only {
     min-height: 300px;
-  }
-
-  &__light {
     background-color: #939A9C;
-  }
-
-  &__dark {
-    background-color: #687677;
   }
 
   &__top {
@@ -60,6 +55,11 @@ $gutter: 5px;
     line-height: 2rem;
     text-transform: uppercase;
     width: 100%;
+  }
+
+  &__author {
+    font-style: italic;
+    text-transform: uppercase;
   }
 }
 

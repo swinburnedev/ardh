@@ -17,7 +17,7 @@ const Masonry = ({cards, count = 6}) => {
   }
 
   return (
-    <div className="container">
+    <div className="container masonary">
       { indexes.map(i => {
           const card = cards[i];
           switch (card.type) {

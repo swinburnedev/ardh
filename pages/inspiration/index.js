@@ -7,7 +7,7 @@ import images from './images/images.json';
 import materials from './materials/materials.json';
 import quotes from './quotes/quotes.json';
 
-const Inspiration = ({cards}) => {
+const Inspiration = ({cards, title}) => {
   return (
     <>
       <Head title={title} />
