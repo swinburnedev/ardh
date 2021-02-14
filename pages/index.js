@@ -86,7 +86,8 @@ export async function getStaticProps() {
         ...imageCards,
         ...residentialCards
       ]
-    }
+    },
+    revalidate: 1, // In seconds
   }
 }
 
