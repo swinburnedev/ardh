@@ -11,7 +11,8 @@ export async function getStaticProps() {
   return {
     props: {
       cards: [ ...residential ]
-    }
+    },
+    revalidate: 1, // In seconds
   }
 }
 

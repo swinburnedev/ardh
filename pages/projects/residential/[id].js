@@ -17,7 +17,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // TODO get random 3 projects
   const project = getCurrentProject(projects, params);
   const index = getCurrentProjectIndex(projects, params);
   const {next, prev} = getNextPrevProjects(projects, index);
@@ -27,7 +26,8 @@ export async function getStaticProps({ params }) {
       ...project,
       next: { url: next.id, name: next.title},
       prev: { url: prev.id, name: prev.title},
-    }
+    },
+    revalidate: 1, // In seconds
   }
 }
 

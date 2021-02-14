@@ -32,7 +32,8 @@ export async function getStaticProps() {
         ...leisureCards,
         ...residentialCards
       ]
-    }
+    },
+    revalidate: 1, // In seconds
   }
 }
 

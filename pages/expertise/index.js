@@ -58,7 +58,8 @@ export async function getStaticProps() {
           quote: 'Landscape project management'
         }
       ]
-    }
+    },
+    revalidate: 1, // In seconds
   }
 }
 
