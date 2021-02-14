@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from './Head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Masonary from '../components/Masonary';
@@ -6,10 +6,7 @@ import Masonary from '../components/Masonary';
 const MasonaryLayout = ({title, cards}) => {
   return (
     <>
-      <Head>
-        <title>{title}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title={title} />
       <main>
         <Header />
         <Masonary cards={cards} />

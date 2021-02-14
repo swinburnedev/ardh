@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Head from 'next/head';
+import Head from './Head';
 import ContentArea from '../components/ContentArea';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -12,10 +12,7 @@ const Inspiration = ({title, content, data, maxCards = 3}) => {
   const cards = data.slice(0, maxCards);
   return (
     <>
-      <Head>
-        <title>{title} | Inspiration | ARDH</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title={`${title} | Inspiration`} />
       <main>
         <Header />
         <div className="wrapper">

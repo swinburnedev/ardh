@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from '../../layouts/Head';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Masonary from '../../components/Masonary';
@@ -7,13 +7,10 @@ import civil from './civil/projects.json';
 import leisure from './leisure/projects.json';
 import residential from './residential/projects.json';
 
-const Projects = ({cards}) => {
+const Projects = ({title, cards}) => {
   return (
     <>
-      <Head>
-        <title>Projects | ARDH</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title={title} />
       <main>
         <Header />
         <Masonary cards={cards} />
@@ -29,6 +26,7 @@ export async function getStaticProps() {
   const residentialCards = getImageCards(2, residential, '1:1');
   return {
     props: {
+      title: 'Projects',
       cards: [
         ...civilCards,
         ...leisureCards,

@@ -1,16 +1,12 @@
-import Head from 'next/head'
+import Head from '../../layouts/Head';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Masonary from '../../components/Masonary';
-import { getImageCards, getQuoteCards } from '../../lib/util';
 
-const Expertise = ({cards}) => {
+const Expertise = ({title, cards}) => {
   return (
     <>
-      <Head>
-        <title>Expertise | ARDH</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title={title} />
       <main>
         <Header />
         <Masonary cards={cards} count={6} />
@@ -23,6 +19,7 @@ const Expertise = ({cards}) => {
 export async function getStaticProps() {
   return {
     props: {
+      title: 'Expertise',
       cards: [
         {
           type: 'quote-top',

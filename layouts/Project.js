@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from './Head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
@@ -8,10 +8,7 @@ import PaginationRow from '../components/PaginationRow';
 const Project = ({images, title, location, map, next, prev}) => {
   return (
     <>
-      <Head>
-        <title>{title} | ARDH</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title={title} />
       <main>
         <Header />
         <Banner images={images} />

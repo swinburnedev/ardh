@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from '../layouts/Head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -15,10 +15,7 @@ import residential from './projects/residential/projects.json';
 const Home = ({cards, hero, tabs}) => {
   return (
     <>
-      <Head>
-        <title>Home | ARDH</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title="Home" />
       <main>
         <Header />
         <Hero slides={hero} />

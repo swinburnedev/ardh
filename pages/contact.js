@@ -1,15 +1,12 @@
-import Head from 'next/head';
 import Image from 'next/image';
+import Head from '../layouts/Head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
     <>
-      <Head>
-        <title>Contact | ARDH</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title="Contact" />
       <main>
           <Header />
           <div className="container">
