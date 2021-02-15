@@ -2,12 +2,12 @@ import { useEffect } from 'react';
 import Image from 'next/image';
 import styles from '../styles/components/LightBox.module.scss';
 
-const LightBox = ({active, setActive, cards, index, setIndex}) => {  
+const LightBox = ({active, setActive, cards, index, setIndex}) => {
   const closeLightBox = () => setActive(false);
   const next = () => setIndex(++index);
   const prev = () => setIndex(--index);
   const isFirst = () => parseInt(index) === 0;
-  const isLast = () => index === cards.length - 1;
+  const isLast = () => parseInt(index) === cards.length - 1;
   const handleKeyDown = e => {
     if (e.code === 'ArrowRight') {
       !isLast() && next();
@@ -54,6 +54,7 @@ const LightBox = ({active, setActive, cards, index, setIndex}) => {
           </button>
         }
         {img && <img
+          className={styles.image}
           src={img}
           alt={alt}
           height={540}
