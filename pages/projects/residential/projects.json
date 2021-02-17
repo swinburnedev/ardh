@@ -29,12 +29,16 @@
     "url": "/projects/residential/private-garden-leeds",
     "title": "Private Garden",
     "type": "image",
-    "img" : "/img/project/residential/Private_Garden_1-Leeds-AR.jpg",
+    "img" : "/img/project/residential/Private _Garden_Leeds1-AR.jpg",
     "thumb" : "/img/project/residential/Private_Garden_1-Leeds.jpg",
     "alt" : "Private Garden",
     "images": [
       {
-        "img" : "/img/project/residential/Private_Garden_1-Leeds-AR.jpg",
+        "img" : "/img/project/residential/Private _Garden_Leeds1-AR.jpg",
+        "alt": "Private Garden"
+      },
+      {
+        "img" : "/img/project/residential/Private _Garden_Leeds2-AR.jpg",
         "alt": "Private Garden"
       }
     ],
