@@ -6,8 +6,8 @@ const Logo = () => (
   <Link href="/">
     <a className={styles.logo}>
       <Image
-        src="/img/logo.png"
-        height="120"
+        src="/img/logo.gif"
+        height="100"
         width="100"
         alt="ARDH"
         layout="intrinsic"
