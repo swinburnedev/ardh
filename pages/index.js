@@ -38,7 +38,7 @@ export async function getStaticProps() {
     props: {
       hero: [
         {
-          img: '/img/banner/civil_public_garden.jpg',
+          img: '/img/banner/civil_public_realm.jpg',
           alt: 'Civil public garden',
           title: 'Civil / Public Realm',
           subtitle: 'Info',
@@ -50,6 +50,13 @@ export async function getStaticProps() {
           title: 'Residential',
           subtitle: 'Info',
           url: '/projects/residential'
+        },
+        {
+          img: '/img/banner/hospitality_leisure.jpg',
+          alt: 'Hospitality leisure',
+          title: 'Hospitality / Leisure',
+          subtitle: 'Info',
+          url: '/projects/leisure'
         }
       ],
       tabs: [
