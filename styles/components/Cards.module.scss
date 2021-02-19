@@ -29,6 +29,7 @@ $gutter: 5px;
   flex: 1; 
   min-height: 50px;
   text-align: center;
+  padding: 1rem;
 
   &__only {
     min-height: 300px;
@@ -72,7 +73,7 @@ $gutter: 5px;
     }
 
     &__top {
-      padding: 0;
+      padding: 1rem 0;
 
       &__text {
         font-size: 0.7rem;
