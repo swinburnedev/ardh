@@ -10,7 +10,6 @@ const Quotes = ({title, content, quoteCards}) => {
 
 export async function getStaticProps() {
   const quoteCards = getQuoteOnly(9, quotes);
-  console.log('quoteCards:', quoteCards);
   return {
     props: {
       title: 'Quotes',
