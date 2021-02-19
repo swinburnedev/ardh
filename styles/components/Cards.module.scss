@@ -8,11 +8,13 @@ $gutter: 5px;
 
 .image {
   display: flex;
-  filter: grayscale(100%);
   cursor: pointer;
 
-  &:hover {
-    filter: none;
+  @media screen and (min-width: 1000px) {
+    filter: grayscale(100%);
+    &:hover {
+      filter: none;
+    }
   }
 }
 
