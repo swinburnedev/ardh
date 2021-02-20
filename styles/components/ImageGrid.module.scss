@@ -1,12 +1,9 @@
 
 .image {
   cursor: pointer;
+  filter: grayscale(100%);
 
-  @media screen and (min-width: 1000px) {
-    filter: grayscale(100%);
-
-    &:hover {
-      filter: none;
-    }
+  &:hover {
+    filter: none;
   }
 }

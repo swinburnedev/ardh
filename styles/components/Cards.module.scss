@@ -9,12 +9,9 @@ $gutter: 5px;
 .image {
   display: flex;
   cursor: pointer;
-
-  @media screen and (min-width: 1000px) {
-    filter: grayscale(100%);
-    &:hover {
-      filter: none;
-    }
+  filter: grayscale(100%);
+  &:hover {
+    filter: none;
   }
 }
 
