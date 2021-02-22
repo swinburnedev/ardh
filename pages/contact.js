@@ -10,7 +10,7 @@ const Contact = () => {
       <main>
           <Header />
           <div className="container">
-            <Image src="/img/banner/contact.jpg" width={550} height={384} layout="intrinsic" />
+            <Image alt="ARDH UK map" src="/img/banner/contact.png" width={550} height={382} layout="intrinsic" />
             <style jsx>{`
                 background-color: #8a9ca6;
                 display: flex;
