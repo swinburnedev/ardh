@@ -64,25 +64,22 @@ export async function getStaticProps() {
           key: 'establishment',
           title: 'Establishment',
           icon: 'establishment',
-          description: 'ARDH Limited is a design based practice established in 2019 in the UK. \
-          We offer consultancy services in Landscape Design, Urbanism and Place-making. \
-          We have worked with clients throughout the UK, Middle East and Asia on a wide range of projects and are fully committed to help our clients make a positive change to the wider public realm'
+          description: 'ARDH Limited is a design-based practice established in 2019 in the UK. We offer consultancy services in Landscape Design, Urbanism and Place-making. We have worked with clients throughout the UK, Middle East, and Asia on a wide range of projects and are fully committed to help our clients make a positive change to the wider public realm.'
         },
         { 
           key: 'vision',
           title: 'Vision',
           icon: 'vision',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          description: 'ARDH is committed to the creation of productive, sustainable, and livable spaces.  Connecting communities through the design of comfortable, vibrant, safe, and enjoyable destinations and ultimately making a positive difference to places in which we live, work and play.'
         },
         { 
           key: 'philosophy',
           title: 'Philosophy',
           icon: 'philosophy',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+          description: 'ARDH’s philosophy is based around three key design principles that help drive the creative process:<br/>\
+          VISION - Each design should start with a clear vision of the wider practice aspirations and the specific client vision for their project.<br/>\
+          COLLABORATION - We have a strong belief in a collaborative design approach which encompasses clients, related design disciplines, contractors and wider public engagement.<br/>\
+          ENJOYMENT - At the core of the design process should be a sense of enjoyment. We firmly believe that the joy the designers feel during the creative process will be expressed into the places they create.'
         }
       ],
       cards: [

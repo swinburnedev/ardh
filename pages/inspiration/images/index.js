@@ -13,7 +13,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Images',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      content: 'A selection of images that help inspire our designs. We feel the creative process is greatly enhanced by constantly using inspiration from the world around us and so we look to capture these moments at every opportunity. You never know when that random photo will spark the flame of creativity.',
       imagesCards
     },
     revalidate: 1, // In seconds

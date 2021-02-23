@@ -45,7 +45,7 @@ const TabbedIcons = ({tabs}) => {
         return (
           <div key={tab.key} className={styles[tabClass]}>
             <h3 className={styles.tab__title}>{tab.title}</h3>
-            <p>{tab.description}</p>
+            <p dangerouslySetInnerHTML={{__html: tab.description}} />
           </div>);
       })}
     </>

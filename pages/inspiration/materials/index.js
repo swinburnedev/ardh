@@ -13,7 +13,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Materials',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      content: 'It can be those little details that make or break a project. At ARDH we always have those details in mind throughout the lifecycle of a project, be it at a concept stage, schematic or detail. It is always a good idea to be on the lookout for that special detail that will help elevate your design to the next level, whether it be a specific species of plant, paving pattern, or piece of furniture.',
       materialsCards
     },
     revalidate: 1, // In seconds

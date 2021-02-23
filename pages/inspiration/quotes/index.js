@@ -13,7 +13,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Quotes',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      content: 'Another great source of inspiration can be the written word, we like to collect and record as many inspirational quotes we hear or see from around the world. These not only help us in our design development but can also encourage creativity and enjoyment in our everyday lives.',
       quoteCards
     },
     revalidate: 1, // In seconds
